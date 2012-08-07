@@ -7,6 +7,7 @@
 #!/usr/bin/perl
 
 use strict;
+use warnings;
 
 require LWP::UserAgent;
 use Text::CSV;
@@ -22,6 +23,7 @@ sub trim($);
 ###################
 my $html;
 my $pageURL = "https://www.jboss.org/projects";
+#$pageURL = "https://raw.github.com/nmchristov/DOMscraper/master/source2.html";
 my $domain = "https://www.jboss.org";
 my @records;
 my $i;
@@ -48,7 +50,25 @@ my $tree = HTML::TreeBuilder->new;
 $tree->parse($html);
 
 #get the <table...> with projects and take all the <tr> elems into arr
-my @rows = $tree->look_down( sub{'_tag', 'table' and '_class', 'simpletablestyle'})->look_down('_tag', 'tr');
+#my $table = $tree->look_down('_tag' => 'table', 'class' => 'simpletablestyle');
+my $table=undef;
+my @tables = $tree->look_down('_tag' => 'table', 'class' => 'simpletablestyle');
+
+for my $i (0 .. $#tables){
+	if(defined($tables[$i]->look_down('_tag' => 'th'))){
+		if($tables[$i]->look_down('_tag' => 'th')->as_text eq "Project"){
+			$table = $tables[$i];
+			last;
+		}
+	}
+}
+
+if(defined($table) == 0 ){
+	print "no qualified table found\n";
+	exit 0;
+}
+
+my @rows = $table->look_down('_tag', 'tr');
 
 #loop through the rows and isolate requested values in vars
 for my $row (@rows){
