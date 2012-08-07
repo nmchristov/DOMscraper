@@ -1,0 +1,3531 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+<meta name="keywords" content="Community Projects" />
+<meta name="description" content="" />
+<meta name="author" content="" />
+<meta name="robots" content="all" />
+<meta name="generator" content="Magnolia Community Edition 4.4.6" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8" /> 
+<title>Community Projects - JBoss Community</title>
+
+<link rel="icon" type="image/png" href="/projects/orgLayoutBody/favicon/favicon.ico" />
+
+    <link rel="stylesheet" type="text/css" href="http://static.jboss.org/theme/css/magnolia/stkdefault-styles.css" media="screen, projection" />
+    <link rel="stylesheet" type="text/css" href="http://static.jboss.org/theme/css/common/org_common.css" media="screen, projection" />
+    <link rel="stylesheet" type="text/css" href="http://static.jboss.org/theme/css/common/styles.css" media="screen, projection" />
+    <link rel="stylesheet" type="text/css" href="http://static.jboss.org/theme/css/magnolia/jquery-ui.css" media="screen, projection" />
+    <link rel="stylesheet" type="text/css" href="http://static.jboss.org/theme/css/magnolia/project.css" media="screen, projection" />
+    <link rel="stylesheet" type="text/css" href="http://static.jboss.org/theme/css/magnolia/clearspace_common.css" media="screen, projection" />
+    <link rel="stylesheet" type="text/css" href="http://static.jboss.org/theme/css/magnolia/wide.css" media="only screen and (min-width: 1200px)" />
+    <link rel="stylesheet" type="text/css" href="http://static.jboss.org/theme/css/magnolia/small.css" media="only screen and (max-width: 980px)" />
+    <link rel="stylesheet" type="text/css" href="http://static.jboss.org/theme/css/magnolia/print.css" media="print" />
+
+
+
+    <script src="http://static.jboss.org/theme/js/magnolia/allinone.js" type="text/javascript"></script>
+    <script src="/resources/templating-kit/js/jbossorg.2011-07-27-15-42-03-383.cache.js" type="text/javascript"></script>
+    <script src="http://w.sharethis.com/button/buttons.js" type="text/javascript"></script>
+    <script src="/resources/templating-kit/js/all.2011-01-19-09-23-54-917.cache.js" type="text/javascript"></script>
+    <script src="http://static.jboss.org/theme/js/tabzilla.js" type="text/javascript"></script>
+
+ 
+ 
+
+<!-- custom page javascript -->
+
+<!-- added below js -->
+<!--[if  lt IE 7]><script type="text/javascript"  src="http://static.jboss.org/theme/js/magnolia/maxWidthFixForIE6.js"></script><![endif]-->  
+<script type="text/javascript">         
+   stLight.options({
+      publisher:'0c0850b9-23f0-4286-b05a-7593cc190675'
+   });
+</script>
+
+<!-- Syntax Highlighter -->
+<script src="/docroot/jbossorg/js/common/syntaxhighlighter/XRegExp.js" type="text/javascript"></script>
+<script src="/docroot/jbossorg/js/common/syntaxhighlighter/shCore.js" type="text/javascript"></script>
+<script src="/docroot/jbossorg/js/common/syntaxhighlighter/shAutoloader.js" type="text/javascript"></script>
+<link href="/docroot/jbossorg/css/common/syntaxhighlighter/shCore.css" rel="stylesheet" type="text/css" />
+<link href="/docroot/jbossorg/css/common/syntaxhighlighter/shThemeDefault.css" rel="stylesheet" type="text/css" />
+
+
+<script type="text/javascript">
+     // initialise Superfish
+     $(document).ready(function() {
+       <!-- loading of necessary brushes -->
+        SyntaxHighlighter.autoloader(
+          'applescript /docroot/jbossorg/js/common/syntaxhighlighter/shBrushAppleScript.js',
+          'as3 /docroot/jbossorg/js/common/syntaxhighlighter/shBrushAS3.js',
+          'bash /docroot/jbossorg/js/common/syntaxhighlighter/shBrushBash.js',
+          'cf /docroot/jbossorg/js/common/syntaxhighlighter/shBrushColdFusion.js',
+          'cpp /docroot/jbossorg/js/common/syntaxhighlighter/shBrushCpp.js',
+          'c-sharp /docroot/jbossorg/js/common/syntaxhighlighter/shBrushCSharp.js',
+          'css /docroot/jbossorg/js/common/syntaxhighlighter/shBrushCss.js',
+          'pas /docroot/jbossorg/js/common/syntaxhighlighter/shBrushDelphi.js',
+          'diff /docroot/jbossorg/js/common/syntaxhighlighter/shBrushDiff.js',
+          'erlang /docroot/jbossorg/js/common/syntaxhighlighter/shBrushErlang.js',
+          'groovy /docroot/jbossorg/js/common/syntaxhighlighter/shBrushGroovy.js',
+          'javafx /docroot/jbossorg/js/common/syntaxhighlighter/shBrushJavaFX.js',
+          'java /docroot/jbossorg/js/common/syntaxhighlighter/shBrushJava.js',
+          'js /docroot/jbossorg/js/common/syntaxhighlighter/shBrushJScript.js',
+          'pl /docroot/jbossorg/js/common/syntaxhighlighter/shBrushPerl.js',
+          'php /docroot/jbossorg/js/common/syntaxhighlighter/shBrushPhp.js',
+          'plain docroot/jbossorg/js/common/syntaxhighlighter/shBrushPlain.js',
+          'ps /docroot/jbossorg/js/common/syntaxhighlighter/shBrushPowerShell.js',
+          'python /docroot/jbossorg/js/common/syntaxhighlighter/shBrushPython.js',
+          'ruby /docroot/jbossorg/js/common/syntaxhighlighter/shBrushRuby.js',
+          'sass /docroot/jbossorg/js/common/syntaxhighlighter/shBrushSass.js',
+          'scala /docroot/jbossorg/js/common/syntaxhighlighter/shBrushScala.js',
+          'sql /docroot/jbossorg/js/common/syntaxhighlighter/shBrushSql.js',
+          'vb /docroot/jbossorg/js/common/syntaxhighlighter/shBrushVb.js',
+          'xml /docroot/jbossorg/js/common/syntaxhighlighter/shBrushXml.js'
+       );
+       SyntaxHighlighter.all();       
+       <!-- ^^ syntax highlighting end -->
+
+         $('ul.sf-menu').superfish({
+             delay:       300,                            // one second delay on mouseout
+             animation:   {opacity:'show',height:'show'},  // fade-in and slide-down animation
+             speed:       'fast',                          // faster animation speed
+             autoArrows:  false,                           // disable generation of arrow mark-up
+             dropShadows: false                            // disable drop shadows
+         });         
+     }); 
+</script>
+<!-- added above js --></head>
+
+
+  
+  
+  <body id="project" class="col-float3 nocol-layout"  >
+
+    <div id="wrapper">
+        <div id="maincontent-wrapper">
+          
+
+
+
+
+
+
+
+<!-- JBoss.org SSO login info. It needs span or div with 'jbssologininfo' id to fill it with info -->
+<script type="text/javascript">
+  var jbssoserverbase = "https://sso.jboss.org";
+    var jbssobackurl = document.location.href;
+    if (document.location.hash.length > 0) {
+      jbssobackurl = jbssobackurl.replace(document.location.hash, "");
+    }
+  
+  var jbssologouturl = "";
+
+
+</script>
+<!--#if expr='1<0' -->
+<div id="awestructnavwrapper">
+<div id="branding">
+  
+  <div id="logo"> 
+    <a href="http://www.jboss.org" title="Homepage"> 
+      <strong>JBoss Community</strong>
+      <span></span>
+    </a> 
+  </div>
+  <!-- end logo -->
+<div id="primarynav">
+    <ul class="sf-menu">
+        <li id="primary-nav-home"> <a class="menu-title sf-with-ul" href="http://www.jboss.org/developer">Get Started</a></li>
+        <li id="primary-nav-getinvolved"> <a class="menu-title" href="http://www.jboss.org/contribute">Get Involved</a></li>
+        <li id="primary-nav-projects"> <a class="menu-title sf-with-ul" href="http://www.jboss.org/projects">Projects</a></li>
+        <li class="enterprise"> <a class="menu-title" href="http://www.redhat.com/products/jbossenterprisemiddleware">Products</a></li>
+    </ul>
+</div><!-- END of primarynav -->
+
+<!-- Utility controls -->
+<div id="nav-meta">
+<ul>
+  <li id="jbssologininfo1"></li>
+  <li id="jbssologininfo2"></li> 
+</ul>
+</div>
+<!-- end nav-meta --> 
+<a href="http://www.jboss.org/" class="tabnav-opened" id="tab">Search</a>
+
+<!-- JBoss.org SSO login info. It needs span or div with 'jbssologininfo' id to fill it with info -->
+<script type="text/javascript">
+//<![CDATA[ 
+   jbossorgheader = {
+
+     /* Highlight main header */ 
+     highlightMainNav: function() {
+       bodyTag = document.getElementsByTagName("body").item(0);
+       navitemId = "primary-nav-projects";
+       if ("community" == bodyTag.id) {
+         navitemId = "primary-nav-home";
+       } else if ("getinvolved" == bodyTag.id) {
+         navitemId = "primary-nav-getinvolved";
+       }
+       jbossorgheader.highlightMainNavByNavId(navitemId);
+     },
+
+     highlightMainNavByNavId: function(navitemId) {
+       document.getElementById(navitemId).className = "current";
+     } 
+   }
+   jbossorgheader.highlightMainNav();
+
+  function setSSOInfo(data) {
+    if (data) {
+      document.getElementById("jbssologininfo1").innerHTML = data.part1 + "|";
+      document.getElementById("jbssologininfo2").innerHTML = data.part2;
+    }
+  }
+  
+  if (typeof jbssoserverbase == 'undefined') {
+    var jbssoserverbase='https://sso.jboss.org';
+  }
+  
+  if (typeof jbssologouturl == 'undefined') {
+    var jbssologouturl = '';
+  }
+  
+  if (typeof jbssobackurl == 'undefined') {
+    var jbssobackurl = document.location.href;
+    if (document.location.hash.length > 0) {
+      jbssobackurl = jbssobackurl.replace(document.location.hash, "");
+    }
+  }
+  
+  if (typeof ssoData != 'undefined') {
+    setSSOInfo(ssoData);
+  } else {
+    var sso = document.createElement('script'); sso.type = 'text/javascript'; sso.async = true;
+    sso.src = jbssoserverbase + "/logininfo?backurl=" + escape(jbssobackurl) +"&lourl="+ escape(jbssologouturl) + "&callback=setSSOInfo";
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(sso, s);
+  }
+//]]>
+</script>
+</div>
+</div><!-- end #branding -->
+<!--#endif -->
+<!--#include virtual="/theme/includes/org_header_topNav.html" -->
+        
+          
+            <div id="top_subnav_branding">
+
+
+
+
+            </div>
+        
+        <div id="wrapper-2">
+            <div id="wrap-content">
+
+            <div id="wrapper-3">
+                
+                <div id="main-wrapper">
+                <div id="main">
+<div id="breadcrumb" style="display:none"> </div>
+                  
+                  
+                  
+                       <!-- content title -->
+                    
+  
+
+
+
+
+
+
+
+
+
+	    <div class="twocolumns" >
+
+<div class="twocol_left " style="text-align:left;margin-right:12px;" >
+
+
+
+
+
+
+
+
+    
+        <h3>Community Projects</h3>
+
+
+
+        <div style="float: right; padding-left: 20px; padding-bottom: 20px;">
+
+  
+      
+          <img width="153" alt="JBoss Community Projects" height="82" src="/dms/content/singular/box_chalk.png" style="margin:0 auto;" />
+      
+
+        </div>
+    
+        <p>JBoss redefined the application server  back in 2002  when it broke apart the  monolithic designs  of the past with its  modular architecture. Since then we've continued to find new ways to challenge convention and  redefine Enterprise Java through community-driven projects.</p>
+
+
+
+
+</div>
+
+
+<div class="twocol_right " style="text-align:left;" >
+
+
+
+
+
+
+
+
+
+
+    
+        <div class="proj_warn"> <p>Community projects represent the latest technologies for use in cutting-edge applications and offer best-effort, community support.</p> <p>If you're looking for fully supported, certified, enterprise middleware products try <a href="http://www.redhat.com/products/jbossenterprisemiddleware/">JBoss Enterprise Middleware</a>.<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.jboss.com/products/community-enterprise/" style="color: rgb(102, 102, 102);">What's the difference?</a></p> </div>
+
+
+
+
+</div>
+
+	       	<div class="clear"></div>
+	    </div>
+
+        <div class="clear">
+                <br />
+        </div>
+
+<table class="simpletablestyle" width="100%" cellspacing="1" cellpadding="0" border="0">
+	<tr>
+		<td>prefix fake table</td>
+	</tr>
+</table>
+<table class="simpletablestyle" width="100%" cellspacing="1" cellpadding="0" border="0">
+	<tbody>
+		<tr class="header">
+			<th>Project</th>
+			<th>Downloads</th>
+			<th>Documentation</th>
+			<th>Community</th>
+			<th>Issue Tracking</th>
+			<th>Source Code</th>
+			<th>License</th>
+		</tr>
+			<tr class="evenRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med aerogear_icon_16x">&nbsp;</span>
+					 <a href="/aerogear" >Aerogear</a>
+				</td>
+				<td>
+				</td>
+				<td>
+				</td>
+				<td>
+			 <a href="http://community.jboss.org/en/aerogear">Wiki</a>  	|  
+			 <a href="http://community.jboss.org/en/aerogear/dev">Dev. forum</a>  	|  
+			 <a href="http://www.redhat.com/mailman/listinfo/aerogear-dev">Mailing list</a>  	|  
+			 <a href="irc://irc.freenode.net/aerogear">Chat</a>   
+				</td>
+				<td>
+			 <a href="https://issues.jboss.org/browse/AEROGEAR">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="https://github.com/aerogear">GitHub</a>   
+				</td>
+				<td>
+			 <a href="http://www.apache.org/licenses/LICENSE-2.0">ASL</a>   
+				</td>
+			</tr>
+			<tr class="oddRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med apiviz_icon_16x">&nbsp;</span>
+					 <a href="/apiviz" >APIviz</a>
+				</td>
+				<td>
+				</td>
+				<td>
+				</td>
+				<td>
+				</td>
+				<td>
+			 <a href="http://jira.jboss.org/jira/browse/APIVIZ">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="http://anonsvn.jboss.org/repos/apiviz">Anon SVN</a>  	|  
+			 <a href="http://fisheye.jboss.org/browse/APIviz">FishEye</a>   
+				</td>
+				<td>
+				</td>
+			</tr>
+			<tr class="evenRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med arquillian_icon_16x">&nbsp;</span>
+					 <a href="/arquillian" >Arquillian</a>
+				</td>
+				<td>
+			 <a href="https://repository.jboss.org/nexus/index.html#nexus-search;quick~org.jboss.arquillian">Downloads</a>   
+				</td>
+				<td>
+			 <a href="http://arquillian.org/guides">Documentation</a>   
+				</td>
+				<td>
+			 <a href="https://community.jboss.org/en/arquillian">Wiki</a>  	|  
+			 <a href="https://community.jboss.org/en/arquillian?view=discussions">User forum</a>  	|  
+			 <a href="https://community.jboss.org/en/arquillian/dev?view=discussions">Dev. forum</a>  	|  
+			 <a href="http://arquillian.org/community/webchat">Chat</a>   
+				</td>
+				<td>
+			 <a href="https://issues.jboss.org/browse/ARQ">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="https://github.com/arquillian">GitHub</a>   
+				</td>
+				<td>
+			 <a href="http://www.apache.org/licenses/LICENSE-2.0">ASL</a>   
+				</td>
+			</tr>
+			<tr class="oddRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med blacktie_icon_16x">&nbsp;</span>
+					 <a href="/blacktie" >Blacktie</a>
+				</td>
+				<td>
+			 <a href="/blacktie/downloads">Downloads</a>   
+				</td>
+				<td>
+			 <a href="/blacktie/documentation">Documentation</a>   
+				</td>
+				<td>
+			 <a href="https://community.jboss.org/wiki/Blacktie">Wiki</a>  	|  
+			 <a href="http://community.jboss.org/en/blacktie?view=discussions">User forum</a>  	|  
+			 <a href="http://community.jboss.org/en/blacktie/dev?view=discussions">Dev. forum</a>  	|  
+			 <a href="/blacktie/irc">Chat</a>   
+				</td>
+				<td>
+			 <a href="https://jira.jboss.org/jira/secure/BrowseProject.jspa?id=12310690">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="https://anonsvn.jboss.org/repos/blacktie/">Anon SVN</a>  	|  
+			 <a href="https://svn.jboss.org/repos/blacktie/">Commiter SVN</a>   
+				</td>
+				<td>
+			 <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">LGPL</a>   
+				</td>
+			</tr>
+			<tr class="evenRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med boxgrinder_icon_16x">&nbsp;</span>
+					 <a href="http://boxgrinder.org" >BoxGrinder</a>
+				</td>
+				<td>
+			 <a href="/boxgrinder/downloads">Downloads</a>   
+				</td>
+				<td>
+			 <a href="http://boxgrinder.org/tutorials/">Documentation</a>   
+				</td>
+				<td>
+			 <a href="http://boxgrinder.org/tutorials/">Wiki</a>  	|  
+			 <a href="http://community.jboss.org/en/boxgrinder?view=discussions">User forum</a>  	|  
+			 <a href="irc://irc.freenode.net/boxgrinder">Chat</a>  	|  
+			 <a href="http://boxgrinder.org/blog/">Blog</a>   
+				</td>
+				<td>
+			 <a href="http://boxgrinder.org/community/">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="http://boxgrinder.org/development">GitHub</a>   
+				</td>
+				<td>
+			 <a href="http://www.gnu.org/licenses/lgpl.txt">LGPL3</a>   
+				</td>
+			</tr>
+			<tr class="oddRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med buildmagic_icon_16x">&nbsp;</span>
+					 <a href="/buildmagic" >buildmagic</a>
+				</td>
+				<td>
+			 <a href="/buildmagic/downloads">Downloads</a>   
+				</td>
+				<td>
+				</td>
+				<td>
+				</td>
+				<td>
+			 <a href="http://www.jboss.org/jira/browse/JBBUILD">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="http://anonsvn.jboss.org/repos/labs/labs/jbossbuild/buildmagic">Anon SVN</a>  	|  
+			 <a href="https://svn.jboss.org/repos/labs/labs/jbossbuild/buildmagic">Commiter SVN</a>   
+				</td>
+				<td>
+				</td>
+			</tr>
+			<tr class="evenRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med byteman_icon_16x">&nbsp;</span>
+					 <a href="/byteman" >Byteman</a>
+				</td>
+				<td>
+			 <a href="/byteman/downloads">Downloads</a>   
+				</td>
+				<td>
+			 <a href="/byteman/documentation">Documentation</a>   
+				</td>
+				<td>
+			 <a href="http://www.jboss.org/index.html?module=bb&amp;op=viewforum&amp;f=310">User forum</a>  	|  
+			 <a href="http://www.jboss.org/index.html?module=bb&amp;op=viewforum&amp;f=311">Dev. forum</a>   
+				</td>
+				<td>
+			 <a href="https://jira.jboss.org/jira/browse/BYTEMAN">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="http://github.com/bytemanproject/byteman">GitHub</a>  	|  
+			 <a href="https://source.jboss.org/browse/Byteman">FishEye</a>   
+				</td>
+				<td>
+			 <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">LGPL</a>   
+				</td>
+			</tr>
+			<tr class="oddRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med capedwarf_icon_16x">&nbsp;</span>
+					 <a href="/capedwarf" >CapeDwarf</a>
+				</td>
+				<td>
+				</td>
+				<td>
+			 <a href="/capedwarf/docs">Documentation</a>   
+				</td>
+				<td>
+				</td>
+				<td>
+			 <a href="https://issues.jboss.org/browse/CAPEDWARF">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="https://github.com/capedwarf">GitHub</a>   
+				</td>
+				<td>
+			 <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">LGPL</a>   
+				</td>
+			</tr>
+			<tr class="evenRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med dna_icon_16x">&nbsp;</span>
+					 <a href="/dna" >DNA</a>
+				</td>
+				<td>
+			 <a href="/dna/downloads">Downloads</a>   
+				</td>
+				<td>
+			 <a href="/dna/docs">Documentation</a>   
+				</td>
+				<td>
+			 <a href="http://community.jboss.org/en/dna">Wiki</a>  	|  
+			 <a href="/dna/mailinglists">Mailing list</a>  	|  
+			 <a href="/dna/chat">Chat</a>  	|  
+			 <a href="http://jbossdna.blogspot.com/">Blog</a>   
+				</td>
+				<td>
+			 <a href="https://jira.jboss.org/jira/browse/DNA">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="http://anonsvn.jboss.org/repos/dna/trunk">Anon SVN</a>  	|  
+			 <a href="https://svn.jboss.org/repos/dna/trunk/">Commiter SVN</a>   
+				</td>
+				<td>
+				</td>
+			</tr>
+			<tr class="oddRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med drools_icon_16x">&nbsp;</span>
+					 <a href="/drools" >Drools</a>
+				</td>
+				<td>
+			 <a href="/drools/downloads">Downloads</a>   
+				</td>
+				<td>
+			 <a href="/drools/documentation">Documentation</a>   
+				</td>
+				<td>
+			 <a href="http://www.jboss.org/community/wiki/JBossRules">Wiki</a>  	|  
+			 <a href="http://drools-java-rules-engine.46999.n3.nabble.com/Drools-User-f47000.html">User forum</a>  	|  
+			 <a href="/drools/lists">Mailing list</a>  	|  
+			 <a href="/drools/irc">Chat</a>   
+				</td>
+				<td>
+			 <a href="/drools/issue-tracker">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="/drools/source-code">Source</a>   
+				</td>
+				<td>
+			 <a href="http://www.apache.org/licenses/LICENSE-2.0">ASL</a>   
+				</td>
+			</tr>
+			<tr class="evenRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med ejb3_icon_16x">&nbsp;</span>
+					 <a href="/ejb3" >EJB3</a>
+				</td>
+				<td>
+			 <a href="/ejb3/downloads">Downloads</a>   
+				</td>
+				<td>
+			 <a href="/ejb3/docs">Documentation</a>   
+				</td>
+				<td>
+			 <a href="http://www.jboss.org/community/wiki/EJB3">Wiki</a>  	|  
+			 <a href="http://www.jboss.org/index.html?module=bb&amp;op=viewforum&amp;f=221">User forum</a>  	|  
+			 <a href="http://www.jboss.org/index.html?module=bb&amp;op=viewforum&amp;f=203">Dev. forum</a>  	|  
+			 <a href="/ejb3/chat">Chat</a>   
+				</td>
+				<td>
+			 <a href="https://jira.jboss.org/jira/browse/EJBTHREE">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="http://anonsvn.jboss.org/repos/jbossas/projects/ejb3/trunk/">Anon SVN</a>  	|  
+			 <a href="https://svn.jboss.org/repos/jbossas/projects/ejb3/trunk/">Commiter SVN</a>   
+				</td>
+				<td>
+				</td>
+			</tr>
+			<tr class="oddRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med embeddedjopr_icon_16x">&nbsp;</span>
+					 <a href="/embjopr" >Embedded Jopr</a>
+				</td>
+				<td>
+			 <a href="http://jboss.org/community/wiki/EmbeddedJoprDownloads">Downloads</a>   
+				</td>
+				<td>
+			 <a href="http://jboss.org/community/wiki/EmbeddedJopr">Documentation</a>   
+				</td>
+				<td>
+			 <a href="http://jboss.org/community/wiki/EmbeddedJopr">Wiki</a>  	|  
+			 <a href="http://jboss.org/index.html?module=bb&amp;op=viewforum&amp;f=294">User forum</a>  	|  
+			 <a href="irc://irc.freenode.net:6667/jopr">Chat</a>   
+				</td>
+				<td>
+			 <a href="https://jira.jboss.org/jira/browse/EMBJOPR">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="http://anonsvn.jboss.org/repos/embjopr/">Anon SVN</a>  	|  
+			 <a href="https://svn.jboss.org/repos/embjopr/">Commiter SVN</a>   
+				</td>
+				<td>
+			 <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">LGPL</a>   
+				</td>
+			</tr>
+			<tr class="evenRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med envers_icon_16x">&nbsp;</span>
+					 <a href="/envers" >Envers</a>
+				</td>
+				<td>
+			 <a href="/envers/downloads">Downloads</a>   
+				</td>
+				<td>
+			 <a href="http://docs.jboss.org/hibernate/envers/3.6/reference/en-US/html_single/">Documentation</a>   
+				</td>
+				<td>
+			 <a href="http://www.jboss.com/index.html?module=bb&amp;op=viewforum&amp;f=283">User forum</a>  	|  
+			 <a href="irc://irc.freenode.net:6667/envers">Chat</a>  	|  
+			 <a href="http://jboss.org/feeds/view/envers">Blog</a>   
+				</td>
+				<td>
+			 <a href="http://opensource.atlassian.com/projects/hibernate/browse/HHH">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="http://github.com/hibernate/hibernate-core/tree/master/hibernate-envers/">Anon SVN</a>   
+				</td>
+				<td>
+				</td>
+			</tr>
+			<tr class="oddRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med errai_icon_16x">&nbsp;</span>
+					 <a href="/errai" >Errai</a>
+				</td>
+				<td>
+			 <a href="/errai/Downloads">Downloads</a>   
+				</td>
+				<td>
+			 <a href="/errai/Documentation">Documentation</a>   
+				</td>
+				<td>
+			 <a href="http://community.jboss.org/docs/DOC-14261">Wiki</a>  	|  
+			 <a href="http://community.jboss.org/en/errai?view=discussions">User forum</a>  	|  
+			 <a href="http://community.jboss.org/en/errai/dev?view=discussions">Dev. forum</a>  	|  
+			 <a href="/errai/Community/MailingLists">Mailing list</a>   
+				</td>
+				<td>
+			 <a href="https://jira.jboss.org/jira/browse/ERRAI">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="https://github.com/errai">GitHub</a>   
+				</td>
+				<td>
+			 <a href="http://www.apache.org/licenses/LICENSE-2.0">ASL</a>   
+				</td>
+			</tr>
+			<tr class="evenRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med exojcr_icon_16x">&nbsp;</span>
+					 <a href="/exojcr" >eXo JCR</a>
+				</td>
+				<td>
+			 <a href="/exojcr/downloads">Downloads</a>   
+				</td>
+				<td>
+			 <a href="/exojcr/documentation">Documentation</a>   
+				</td>
+				<td>
+				</td>
+				<td>
+			 <a href="https://jira.jboss.org/browse/EXOJCR">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="http://fisheye.jboss.org/changelog/exo-jcr">FishEye</a>   
+				</td>
+				<td>
+				</td>
+			</tr>
+			<tr class="oddRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med forge_icon_16x">&nbsp;</span>
+					 <a href="http://docs.jboss.org/author/display/FORGE/Home" >Forge</a>
+				</td>
+				<td>
+				</td>
+				<td>
+			 <a href="http://docs.jboss.org/author/display/FORGE">Documentation</a>   
+				</td>
+				<td>
+			 <a href="http://lists.jboss.org/mailman/listinfo/forge-users">User forum</a>  	|  
+			 <a href="http://lists.jboss.org/mailman/listinfo/forge-dev">Dev. forum</a>  	|  
+			 <a href="irc://irc.freenode.net:6667/forge">Chat</a>   
+				</td>
+				<td>
+			 <a href="http://issues.jboss.org/browse/FORGE">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="http://github.com/forge/core">GitHub</a>  	|  
+			 <a href="http://source.jboss.org/browse/Forge">FishEye</a>   
+				</td>
+				<td>
+				</td>
+			</tr>
+			<tr class="evenRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med gatein_icon_16x">&nbsp;</span>
+					 <a href="/gatein" >GateIn</a>
+				</td>
+				<td>
+			 <a href="/gatein/downloads">Downloads</a>   
+				</td>
+				<td>
+			 <a href="/gatein/documentation">Documentation</a>   
+				</td>
+				<td>
+			 <a href="https://community.jboss.org/en/gatein?view=documents">Wiki</a>  	|  
+			 <a href="http://community.jboss.org/en/gatein?view=discussions">User forum</a>  	|  
+			 <a href="http://community.jboss.org/en/gatein/dev?view=discussions">Dev. forum</a>  	|  
+			 <a href="irc://irc.freenode.net/gatein">Chat</a>   
+				</td>
+				<td>
+			 <a href="https://jira.jboss.org/jira/browse/GTNPORTAL">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="https://github.com/gatein">GitHub</a>   
+				</td>
+				<td>
+			 <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">LGPL</a>   
+				</td>
+			</tr>
+			<tr class="oddRow">
+			
+				<td style="font-weight: bold;">
+					<span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+					 <span class="project-icon-med gatein_icon_16x">&nbsp;</span>
+					 <a href="/gatein/portletcontainer" >GateIn Portlet Container</a>
+				</td>
+				<td>
+			 <a href="/gatein/portletcontainer/downloads">Downloads</a>   
+				</td>
+				<td>
+			 <a href="/gatein/portletcontainer/documentation">Documentation</a>   
+				</td>
+				<td>
+			 <a href="http://www.jboss.org/community/wiki/JBossPortletContainer">Wiki</a>   
+				</td>
+				<td>
+			 <a href="https://jira.jboss.org/jira/browse/GTNPC">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="http://anonsvn.jboss.org/repos/gatein/components/pc/">Anon SVN</a>  	|  
+			 <a href="https://svn.jboss.org/repos/gatein/components/pc/">Commiter SVN</a>   
+				</td>
+				<td>
+			 <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">LGPL</a>   
+				</td>
+			</tr>
+			<tr class="evenRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med guvnor_icon_16x">&nbsp;</span>
+					 <a href="/guvnor" >Guvnor</a>
+				</td>
+				<td>
+				</td>
+				<td>
+				</td>
+				<td>
+			 <a href="http://community.jboss.org/wiki/Guvnor">Wiki</a>  	|  
+			 <a href="http://community.jboss.org/en/guvnor?view=all">User forum</a>  	|  
+			 <a href="http://community.jboss.org/en/guvnor/dev?view=all">Dev. forum</a>  	|  
+			 <a href="http://guvtalk.blogspot.com">Blog</a>   
+				</td>
+				<td>
+			 <a href="http://jira.jboss.org/jira/browse/GUVNORSOA">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="http://anonsvn.jboss.org/repos/guvnor">Anon SVN</a>  	|  
+			 <a href="http://svn.jboss.org/repos/guvnor">Commiter SVN</a>   
+				</td>
+				<td>
+				</td>
+			</tr>
+			<tr class="oddRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med hibernate_icon_16x">&nbsp;</span>
+					 <a href="http://core.hibernate.org" >Hibernate</a>
+				</td>
+				<td>
+			 <a href="/hibernate/downloads">Downloads</a>   
+				</td>
+				<td>
+			 <a href="/hibernate/docs">Documentation</a>   
+				</td>
+				<td>
+			 <a href="http://community.jboss.org/en/hibernate">Wiki</a>  	|  
+			 <a href="http://forum.hibernate.org">User forum</a>  	|  
+			 <a href="/hibernate/community/mailinglists">Mailing list</a>  	|  
+			 <a href="/hibernate/community/irc">Chat</a>   
+				</td>
+				<td>
+			 <a href="/hibernate/issuetracker">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="https://github.com/hibernate/hibernate-orm">GitHub</a>  	|  
+			 <a href="git://github.com/hibernate/hibernate-orm.git">Anon GIT</a>   
+				</td>
+				<td>
+			 <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">LGPL</a>   
+				</td>
+			</tr>
+			<tr class="evenRow">
+			
+				<td style="font-weight: bold;">
+					<span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+					 <span class="project-icon-med hibernate_icon_16x">&nbsp;</span>
+					 <a href="/hibernate/subprojects/jpamodelgen" >Hibernate Metamodel Generator</a>
+				</td>
+				<td>
+			 <a href="/hibernate/subprojects/jpamodelgen/download">Downloads</a>   
+				</td>
+				<td>
+			 <a href="/hibernate/subprojects/jpamodelgen/docs">Documentation</a>   
+				</td>
+				<td>
+			 <a href="https://forum.hibernate.org/viewforum.php?f=9">User forum</a>  	|  
+			 <a href="/hibernate/community/mailinglists">Mailing list</a>  	|  
+			 <a href="/hibernate/community/irc">Chat</a>  	|  
+			 <a href="http://in.relation.to">Blog</a>   
+				</td>
+				<td>
+			 <a href="http://opensource.atlassian.com/projects/hibernate/browse/METAGEN">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="https://github.com/hibernate/hibernate-metamodelgen">GitHub</a>  	|  
+			 <a href="git://github.com/hibernate/hibernate-metamodelgen.git">Anon GIT</a>   
+				</td>
+				<td>
+			 <a href="http://www.apache.org/licenses/LICENSE-2.0">ASL</a>   
+				</td>
+			</tr>
+			<tr class="oddRow">
+			
+				<td style="font-weight: bold;">
+					<span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+					 <span class="project-icon-med hibernate_icon_16x">&nbsp;</span>
+					 <a href="http://www.hibernate.org/subprojects/ogm.html" >Hibernate OGM</a>
+				</td>
+				<td>
+			 <a href="/hibernate/subprojects/ogm/download">Downloads</a>   
+				</td>
+				<td>
+			 <a href="/hibernate/subprojects/ogm/docs">Documentation</a>   
+				</td>
+				<td>
+			 <a href="http://community.jboss.org/en/hibernate/ogm">Wiki</a>  	|  
+			 <a href="https://forum.hibernate.org/viewforum.php?f=31">User forum</a>  	|  
+			 <a href="/hibernate/community/mailinglists">Mailing list</a>  	|  
+			 <a href="/hibernate/community/irc">Chat</a>   
+				</td>
+				<td>
+			 <a href="http://opensource.atlassian.com/projects/hibernate/browse/OGM">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="https://github.com/hibernate/hibernate-ogm">GitHub</a>  	|  
+			 <a href="https://fisheye2.atlassian.com/browse/HibernateOGM">FishEye</a>   
+				</td>
+				<td>
+			 <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">LGPL</a>   
+				</td>
+			</tr>
+			<tr class="evenRow">
+			
+				<td style="font-weight: bold;">
+					<span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+					 <span class="project-icon-med hibernate_icon_16x">&nbsp;</span>
+					 <a href="http://search.hibernate.org" >Hibernate Search</a>
+				</td>
+				<td>
+			 <a href="/hibernate/subprojects/search/download">Downloads</a>   
+				</td>
+				<td>
+			 <a href="/hibernate/subprojects/search/docs">Documentation</a>   
+				</td>
+				<td>
+			 <a href="http://community.jboss.org/en/hibernate/search">Wiki</a>  	|  
+			 <a href="https://forum.hibernate.org/viewforum.php?f=9">User forum</a>  	|  
+			 <a href="/hibernate/community/mailinglists">Mailing list</a>  	|  
+			 <a href="/hibernate/community/irc">Chat</a>   
+				</td>
+				<td>
+			 <a href="http://opensource.atlassian.com/projects/hibernate/browse/HSEARCH">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="https://github.com/hibernate/hibernate-search">GitHub</a>  	|  
+			 <a href="git://github.com/hibernate/hibernate-search.git">Anon GIT</a>   
+				</td>
+				<td>
+			 <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">LGPL</a>   
+				</td>
+			</tr>
+			<tr class="oddRow">
+			
+				<td style="font-weight: bold;">
+					<span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+					 <span class="project-icon-med hibernate_icon_16x">&nbsp;</span>
+					 <a href="http://shards.hibernate.org" >Hibernate Shards</a>
+				</td>
+				<td>
+			 <a href="/hibernate/subprojects/shards/download">Downloads</a>   
+				</td>
+				<td>
+			 <a href="/hibernate/subprojects/shards/docs">Documentation</a>   
+				</td>
+				<td>
+			 <a href="https://forum.hibernate.org/viewforum.php?f=9">User forum</a>  	|  
+			 <a href="/hibernate/community/mailinglists">Mailing list</a>  	|  
+			 <a href="/hibernate/community/irc">Chat</a>  	|  
+			 <a href="http://in.relation.to">Blog</a>   
+				</td>
+				<td>
+			 <a href="http://opensource.atlassian.com/projects/hibernate/browse/HSHARDS">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="http://anonsvn.jboss.org/repos/hibernate/shards/trunk">Anon SVN</a>  	|  
+			 <a href="https://svn.jboss.org/repos/hibernate/shards/trunk">Commiter SVN</a>   
+				</td>
+				<td>
+			 <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">LGPL</a>   
+				</td>
+			</tr>
+			<tr class="evenRow">
+			
+				<td style="font-weight: bold;">
+					<span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+					 <span class="project-icon-med hibernate_icon_16x">&nbsp;</span>
+					 <a href="http://tools.hibernate.org" >Hibernate Tools</a>
+				</td>
+				<td>
+			 <a href="http://www.jboss.org/tools/download/">Downloads</a>   
+				</td>
+				<td>
+			 <a href="http://www.jboss.org/tools/docs">Documentation</a>   
+				</td>
+				<td>
+			 <a href="https://forum.hibernate.org/viewforum.php?f=6">User forum</a>  	|  
+			 <a href="http://www.jboss.org/tools/community">Community</a>   
+				</td>
+				<td>
+			 <a href="http://opensource.atlassian.com/projects/hibernate/browse/HBX">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="https://github.com/hibernate/hibernate-tools">GitHub</a>  	|  
+			 <a href="http://fisheye.jboss.org/browse/Hibernatetools">FishEye</a>   
+				</td>
+				<td>
+			 <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">LGPL</a>   
+				</td>
+			</tr>
+			<tr class="oddRow">
+			
+				<td style="font-weight: bold;">
+					<span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+					 <span class="project-icon-med hibernate_icon_16x">&nbsp;</span>
+					 <a href="http://validator.hibernate.org" >Hibernate Validator</a>
+				</td>
+				<td>
+			 <a href="/hibernate/subprojects/validator/download">Downloads</a>   
+				</td>
+				<td>
+			 <a href="/hibernate/subprojects/validator/docs">Documentation</a>   
+				</td>
+				<td>
+			 <a href="http://community.jboss.org/en/hibernate/validator">Wiki</a>  	|  
+			 <a href="https://forum.hibernate.org/viewforum.php?f=9">User forum</a>  	|  
+			 <a href="/hibernate/community/mailinglists">Mailing list</a>  	|  
+			 <a href="/hibernate/community/irc">Chat</a>   
+				</td>
+				<td>
+			 <a href="/hibernate/subprojects/validator/issuetracker">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="http://github.com/hibernate/hibernate-validator">GitHub</a>  	|  
+			 <a href="git://github.com/hibernate/hibernate-validator.git">Anon GIT</a>   
+				</td>
+				<td>
+			 <a href="http://www.apache.org/licenses/LICENSE-2.0">ASL</a>   
+				</td>
+			</tr>
+			<tr class="evenRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med hornetQ_icon_16x">&nbsp;</span>
+					 <a href="/hornetq" >HornetQ</a>
+				</td>
+				<td>
+			 <a href="/hornetq/downloads">Downloads</a>   
+				</td>
+				<td>
+			 <a href="/hornetq/docs">Documentation</a>   
+				</td>
+				<td>
+			 <a href="http://www.jboss.org/community/wiki/HornetQ">Wiki</a>  	|  
+			 <a href="http://www.jboss.org/index.html?module=bb&amp;op=viewforum&amp;f=312">User forum</a>  	|  
+			 <a href="http://www.jboss.org/index.html?module=bb&amp;op=viewforum&amp;f=313">Dev. forum</a>  	|  
+			 <a href="irc://freenode.net:6667/hornetq">Chat</a>   
+				</td>
+				<td>
+			 <a href="https://jira.jboss.org/jira/browse/HORNETQ">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="https://github.com/hornetq/hornetq">GitHub</a>  	|  
+			 <a href="/hornetq/sourcecode">Source</a>   
+				</td>
+				<td>
+			 <a href="http://www.apache.org/licenses/LICENSE-2.0">ASL</a>   
+				</td>
+			</tr>
+			<tr class="oddRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med infinispan_icon_16x">&nbsp;</span>
+					 <a href="/infinispan" >Infinispan</a>
+				</td>
+				<td>
+			 <a href="/infinispan/downloads">Downloads</a>   
+				</td>
+				<td>
+			 <a href="/infinispan/documentation">Documentation</a>   
+				</td>
+				<td>
+			 <a href="http://community.jboss.org/en/infinispan?view=documents">Wiki</a>  	|  
+			 <a href="/infinispan/forums">User forum</a>  	|  
+			 <a href="/infinispan/mailinglists">Mailing list</a>  	|  
+			 <a href="irc://irc.freenode.org/infinispan">Chat</a>   
+				</td>
+				<td>
+			 <a href="https://jira.jboss.org/jira/browse/ISPN">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="http://github.com/infinispan/infinispan">GitHub</a>  	|  
+			 <a href="/infinispan/sourcecode">Source</a>   
+				</td>
+				<td>
+			 <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">LGPL</a>   
+				</td>
+			</tr>
+			<tr class="evenRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med ironjacamar_icon_16x">&nbsp;</span>
+					 <a href="/ironjacamar" >IronJacamar</a>
+				</td>
+				<td>
+			 <a href="/ironjacamar/downloads">Downloads</a>   
+				</td>
+				<td>
+			 <a href="/ironjacamar/docs">Documentation</a>   
+				</td>
+				<td>
+			 <a href="http://community.jboss.org/en/ironjacamar?view=all">User forum</a>  	|  
+			 <a href="http://community.jboss.org/en/ironjacamar/dev?view=all">Dev. forum</a>  	|  
+			 <a href="/ironjacamar/community">Community</a>   
+				</td>
+				<td>
+			 <a href="/ironjacamar/issues">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="http://anonsvn.jboss.org/repos/jbossas/projects/jboss-jca/trunk/">Anon SVN</a>  	|  
+			 <a href="https://svn.jboss.org/repos/jbossas/projects/jboss-jca/trunk/">Commiter SVN</a>   
+				</td>
+				<td>
+			 <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">LGPL</a>   
+				</td>
+			</tr>
+			<tr class="oddRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med javassist_icon_16x">&nbsp;</span>
+					 <a href="/javassist" >Javassist</a>
+				</td>
+				<td>
+			 <a href="/javassist/downloads">Downloads</a>   
+				</td>
+				<td>
+				</td>
+				<td>
+			 <a href="http://labs.jboss.com/index.html?module=bb&amp;op=viewforum&amp;f=178">User forum</a>  	|  
+			 <a href="http://labs.jboss.com/index.html?module=bb&amp;op=viewforum&amp;f=179">Dev. forum</a>   
+				</td>
+				<td>
+			 <a href="http://jira.jboss.org/jira/browse/JASSIST">Issue tracking</a>   
+				</td>
+				<td>
+				</td>
+				<td>
+			 <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">LGPL</a>   
+				</td>
+			</tr>
+			<tr class="evenRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med jboss-common_icon_16x">&nbsp;</span>
+					 <a href="/jboss-common" >JBoss Common</a>
+				</td>
+				<td>
+				</td>
+				<td>
+				</td>
+				<td>
+			 <a href="http://community.jboss.org/wiki/JBossCommonProject">Wiki</a>   
+				</td>
+				<td>
+			 <a href="http://jira.jboss.org/jira/browse/JBCOMMON">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="http://anonsvn.jboss.org/repos/common/">Anon SVN</a>  	|  
+			 <a href="https://svn.jboss.org/repos/common/">Commiter SVN</a>   
+				</td>
+				<td>
+				</td>
+			</tr>
+			<tr class="oddRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med jbossas_icon_16x">&nbsp;</span>
+					 <a href="/jbossas" >JBoss Application Server 7</a>
+				</td>
+				<td>
+			 <a href="/jbossas/downloads">Downloads</a>   
+				</td>
+				<td>
+			 <a href="/jbossas/docs">Documentation</a>   
+				</td>
+				<td>
+			 <a href="http://community.jboss.org/en/jbossas">Wiki</a>  	|  
+			 <a href="http://community.jboss.org/en/jbossas/as7_users?view=discussions">User forum</a>  	|  
+			 <a href="https://lists.jboss.org/mailman/listinfo/jboss-as7-dev">Mailing list</a>  	|  
+			 <a href="irc://irc.freenode.net#jboss">Chat</a>   
+				</td>
+				<td>
+			 <a href="https://issues.jboss.org/browse/AS7">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="https://github.com/jbossas/jboss-as">GitHub</a>  	|  
+			 <a href="https://source.jboss.org/browse/JBossAS">FishEye</a>   
+				</td>
+				<td>
+			 <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">LGPL</a>   
+				</td>
+			</tr>
+			<tr class="evenRow">
+			
+				<td style="font-weight: bold;">
+					<span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+					 <span class="project-icon-med jbossas_icon_16x">&nbsp;</span>
+					 <a href="/jbossas/osgi" >OSGi</a>
+				</td>
+				<td>
+			 <a href="/jbossas/downloads">Downloads</a>   
+				</td>
+				<td>
+			 <a href="http://docs.jboss.org/osgi">Documentation</a>   
+				</td>
+				<td>
+			 <a href="http://community.jboss.org/wiki/JBossOSGi">Wiki</a>  	|  
+			 <a href="http://community.jboss.org/community/jbossosgi?view=discussions">User forum</a>  	|  
+			 <a href="http://community.jboss.org/en/jbossosgi/dev?view=discussions">Dev. forum</a>   
+				</td>
+				<td>
+			 <a href="https://issues.jboss.org/browse/JBOSGI">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="https://github.com/jbosgi/jbosgi">GitHub</a>   
+				</td>
+				<td>
+			 <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">LGPL</a>   
+				</td>
+			</tr>
+			<tr class="oddRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med jbossbuild_icon_16x">&nbsp;</span>
+					 <a href="/jbossbuild" >JBoss Build</a>
+				</td>
+				<td>
+			 <a href="/jbossbuild/downloads">Downloads</a>   
+				</td>
+				<td>
+				</td>
+				<td>
+			 <a href="http://www.jboss.org/index.html?module=bb&amp;op=viewforum&amp;f=173">User forum</a>   
+				</td>
+				<td>
+			 <a href="/jbossbuild/issue-tracking">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="http://anonsvn.jboss.org/repos/labs/labs/jbossbuild/">Anon SVN</a>  	|  
+			 <a href="https://svn.jboss.org/repos/labs/labs/jbossbuild/">Commiter SVN</a>   
+				</td>
+				<td>
+				</td>
+			</tr>
+			<tr class="evenRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med jbossclustering_icon_16x">&nbsp;</span>
+					 <a href="/jbossclustering" >JBoss Clustering</a>
+				</td>
+				<td>
+				</td>
+				<td>
+			 <a href="http://labs.jboss.com/jbossas/docs/index.html">Documentation</a>   
+				</td>
+				<td>
+			 <a href="http://wiki.jboss.org/wiki/Wiki.jsp?page=JBossHA">Wiki</a>  	|  
+			 <a href="http://www.jboss.org/index.html?module=bb&amp;op=viewforum&amp;f=64">User forum</a>  	|  
+			 <a href="http://www.jboss.org/index.html?module=bb&amp;op=viewforum&amp;f=155">Dev. forum</a>   
+				</td>
+				<td>
+			 <a href="http://jira.jboss.org/jira/browse/JBCLUSTER">Issue tracking</a>   
+				</td>
+				<td>
+				</td>
+				<td>
+				</td>
+			</tr>
+			<tr class="oddRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med jbossdtf_icon_16x">&nbsp;</span>
+					 <a href="/jbossdtf" >JBoss DTF</a>
+				</td>
+				<td>
+				</td>
+				<td>
+				</td>
+				<td>
+			 <a href="http://community.jboss.org/docs/DOC-10310">Wiki</a>  	|  
+			 <a href="http://community.jboss.org/en/dtf?view=discussions">User forum</a>  	|  
+			 <a href="http://community.jboss.org/en/dtf/dev?view=discussions">Dev. forum</a>   
+				</td>
+				<td>
+			 <a href="http://jira.jboss.org/jira/browse/DTF">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="http://anonsvn.jboss.org/repos/dtf/">Anon SVN</a>  	|  
+			 <a href="https://svn.jboss.org/repos/dtf/">Commiter SVN</a>   
+				</td>
+				<td>
+				</td>
+			</tr>
+			<tr class="evenRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med jbossesb_icon_16x">&nbsp;</span>
+					 <a href="/jbossesb" >JBoss ESB</a>
+				</td>
+				<td>
+			 <a href="/jbossesb/downloads">Downloads</a>   
+				</td>
+				<td>
+			 <a href="/jbossesb/docs">Documentation</a>   
+				</td>
+				<td>
+			 <a href="http://community.jboss.org/wiki/JBossESB">Wiki</a>  	|  
+			 <a href="http://www.jboss.com/index.html?module=bb&amp;op=viewforum&amp;f=246">User forum</a>  	|  
+			 <a href="http://www.jboss.com/index.html?module=bb&amp;op=viewforum&amp;f=220">Dev. forum</a>  	|  
+			 <a href="/jbossesb/lists">Mailing list</a>   
+				</td>
+				<td>
+			 <a href="http://jira.jboss.org/jira/browse/JBESB">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="http://anonsvn.jboss.org/repos/labs/labs/jbossesb/">Anon SVN</a>  	|  
+			 <a href="https://svn.jboss.org/repos/labs/labs/jbossesb/trunk">Commiter SVN</a>   
+				</td>
+				<td>
+			 <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">LGPL</a>   
+				</td>
+			</tr>
+			<tr class="oddRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med jbossidentity_icon_16x">&nbsp;</span>
+					 <a href="/jbossidentity" >JBoss Identity</a>
+				</td>
+				<td>
+			 <a href="http://www.jboss.org/jbossidentity/downloads/">Downloads</a>   
+				</td>
+				<td>
+			 <a href="http://www.jboss.org/jbossidentity/docs/guides">Documentation</a>   
+				</td>
+				<td>
+			 <a href="http://www.jboss.org/community/docs/DOC-13254">Wiki</a>  	|  
+			 <a href="http://www.jboss.org/index.html?module=bb&amp;op=viewforum&amp;f=305">User forum</a>  	|  
+			 <a href="http://www.jboss.com/index.html?module=bb&amp;op=viewforum&amp;f=284">Dev. forum</a>  	|  
+			 <a href="http://anil-identity.blogspot.com/">Blog</a>   
+				</td>
+				<td>
+			 <a href="http://jira.jboss.org/jira/browse/JBID">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="http://anonsvn.jboss.org/repos/jbossidentity/">Anon SVN</a>  	|  
+			 <a href="https://svn.jboss.org/repos/jbossidentity/">Commiter SVN</a>   
+				</td>
+				<td>
+				</td>
+			</tr>
+			<tr class="evenRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med jbossmail_icon_16x">&nbsp;</span>
+					 <a href="/jbossmail" >JBoss Collaboration Server</a>
+				</td>
+				<td>
+			 <a href="/jbossmail/downloads">Downloads</a>   
+				</td>
+				<td>
+			 <a href="http://wiki.jboss.org/wiki/Wiki.jsp?page=JBossMailServer">Documentation</a>   
+				</td>
+				<td>
+			 <a href="http://wiki.jboss.org/wiki/Wiki.jsp?page=JBossMailServer">Wiki</a>   
+				</td>
+				<td>
+			 <a href="http://jira.jboss.com/jira/browse/JBMAIL">Issue tracking</a>   
+				</td>
+				<td>
+				</td>
+				<td>
+				</td>
+			</tr>
+			<tr class="oddRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med jbossmarshalling_icon_16x">&nbsp;</span>
+					 <a href="/jbossmarshalling" >JBoss Marshalling</a>
+				</td>
+				<td>
+			 <a href="/jbossmarshalling/downloads">Downloads</a>   
+				</td>
+				<td>
+			 <a href="/jbossmarshalling/docs">Documentation</a>   
+				</td>
+				<td>
+			 <a href="irc://irc.freenode.net:6667/jboss-remoting">Chat</a>   
+				</td>
+				<td>
+			 <a href="http://jira.jboss.org/jira/browse/JBMAR">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="http://github.com/jboss-remoting/jboss-marshalling">GitHub</a>   
+				</td>
+				<td>
+			 <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">LGPL</a>   
+				</td>
+			</tr>
+			<tr class="evenRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med jbossmc_icon_16x">&nbsp;</span>
+					 <a href="/jbossmc" >Microcontainer</a>
+				</td>
+				<td>
+			 <a href="/jbossmc/downloads">Downloads</a>   
+				</td>
+				<td>
+			 <a href="/jbossmc/documentation">Documentation</a>   
+				</td>
+				<td>
+			 <a href="http://community.jboss.org/docs/DOC-10505">Wiki</a>  	|  
+			 <a href="http://community.jboss.org/en/jbossmc?view=discussions">User forum</a>  	|  
+			 <a href="http://community.jboss.org/en/jbossmc/dev?view=discussions">Dev. forum</a>   
+				</td>
+				<td>
+			 <a href="http://jira.jboss.org/jira/browse/JBMICROCONT">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="http://anonsvn.jboss.org/repos/jbossas/projects/microcontainer/">Anon SVN</a>  	|  
+			 <a href="https://svn.jboss.org/repos/jbossas/projects/microcontainer/">Commiter SVN</a>   
+				</td>
+				<td>
+			 <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">LGPL</a>   
+				</td>
+			</tr>
+			<tr class="oddRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med jbossprofiler_icon_16x">&nbsp;</span>
+					 <a href="/jbossprofiler" >JBoss Profiler</a>
+				</td>
+				<td>
+			 <a href="/jbossprofiler/downloads">Downloads</a>   
+				</td>
+				<td>
+			 <a href="http://www.jboss.org/jbossprofiler/doc/index.html">Documentation</a>   
+				</td>
+				<td>
+			 <a href="http://community.jboss.org/docs/DOC-10728">Wiki</a>  	|  
+			 <a href="http://community.jboss.org/en/jbossprofiler/dev?view=discussions">Dev. forum</a>  	|  
+			 <a href="http://www.jboss.org/feeds/view/jbossprofiler">Blog</a>   
+				</td>
+				<td>
+			 <a href="http://jira.jboss.org/jira/browse/JBPROFILER">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="http://anonsvn.jboss.org/repos/jbossprofiler">Anon SVN</a>  	|  
+			 <a href="http://fisheye.jboss.org/browse/JBossProfiler">FishEye</a>   
+				</td>
+				<td>
+			 <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">LGPL</a>   
+				</td>
+			</tr>
+			<tr class="evenRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med jbossremoting_icon_16x">&nbsp;</span>
+					 <a href="/jbossremoting" >JBoss Remoting</a>
+				</td>
+				<td>
+			 <a href="/jbossremoting/downloads">Downloads</a>   
+				</td>
+				<td>
+			 <a href="/jbossremoting/documentation">Documentation</a>   
+				</td>
+				<td>
+			 <a href="http://www.jboss.org/index.html?module=bb&amp;op=viewforum&amp;f=222">User forum</a>  	|  
+			 <a href="http://www.jboss.org/index.html?module=bb&amp;op=viewforum&amp;f=176">Dev. forum</a>  	|  
+			 <a href="https://www.mibbit.com/chat/?server=irc.freenode.net&amp;channel=%23jboss-remoting">Chat</a>  	|  
+			 <a href="/jbossremoting/blogs">Blog</a>   
+				</td>
+				<td>
+			 <a href="https://jira.jboss.org/jira/browse/JBREM">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="http://www.github.com/dmlloyd/jboss-remoting">GitHub</a>  	|  
+			 <a href="http://viewvc.jboss.org/cgi-bin/viewvc.cgi/jbossremoting">ViewVC</a>   
+				</td>
+				<td>
+			 <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">LGPL</a>   
+				</td>
+			</tr>
+			<tr class="oddRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med jbosstm_icon_16x">&nbsp;</span>
+					 <a href="/jbosstm" >JBoss Transactions</a>
+				</td>
+				<td>
+			 <a href="/jbosstm/downloads">Downloads</a>   
+				</td>
+				<td>
+			 <a href="/jbosstm/documentation">Documentation</a>   
+				</td>
+				<td>
+			 <a href="http://jboss.org/wiki/Wiki.jsp?page=JBossTransactions">Wiki</a>  	|  
+			 <a href="http://www.jboss.com/index.html?module=bb&amp;op=viewforum&amp;f=240">User forum</a>  	|  
+			 <a href="http://www.jboss.com/index.html?module=bb&amp;op=viewforum&amp;f=164">Dev. forum</a>  	|  
+			 <a href="/jbosstm/lists">Mailing list</a>   
+				</td>
+				<td>
+			 <a href="http://jira.jboss.com/jira/browse/JBTM">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="https://tomjenkinson@github.com/jbosstm/narayana.git">Anon GIT</a>  	|  
+			 <a href="git@github.com:jbosstm/narayana.git">Commiter GIT</a>   
+				</td>
+				<td>
+			 <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">LGPL</a>   
+				</td>
+			</tr>
+			<tr class="evenRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med jbosstools_icon_16x">&nbsp;</span>
+					 <a href="/tools" >JBoss Tools</a>
+				</td>
+				<td>
+			 <a href="/tools/download">Downloads</a>   
+				</td>
+				<td>
+			 <a href="/tools/docs">Documentation</a>   
+				</td>
+				<td>
+			 <a href="http://www.jboss.org/community/docs/DOC-10794">Wiki</a>  	|  
+			 <a href="http://community.jboss.org/community/tools?view=discussions">User forum</a>  	|  
+			 <a href="https://lists.jboss.org/mailman/listinfo/jbosstools-dev">Mailing list</a>  	|  
+			 <a href="irc://irc.freenode.org/jbosstools">Chat</a>   
+				</td>
+				<td>
+			 <a href="https://jira.jboss.org/jira/browse/JBIDE">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="https://github.com/jbosstools">GitHub</a>  	|  
+			 <a href="http://anonsvn.jboss.org/repos/jbosstools">Anon SVN</a>   
+				</td>
+				<td>
+			 <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">LGPL</a>   
+				</td>
+			</tr>
+			<tr class="oddRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med jbossweb_icon_16x">&nbsp;</span>
+					 <a href="/jbossweb" >JBoss Web</a>
+				</td>
+				<td>
+			 <a href="/jbossweb/downloads">Downloads</a>   
+				</td>
+				<td>
+			 <a href="/jbossweb/docs">Documentation</a>   
+				</td>
+				<td>
+			 <a href="http://www.jboss.org/community/docs/DOC-11080">Wiki</a>  	|  
+			 <a href="http://jboss.com/index.html?module=bb&amp;op=viewforum&amp;f=230">User forum</a>  	|  
+			 <a href="http://jboss.com/index.html?module=bb&amp;op=viewforum&amp;f=229">Dev. forum</a>   
+				</td>
+				<td>
+			 <a href="http://jira.jboss.org/jira/browse/JBWEB">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="http://anonsvn.jboss.org/repos/jbossweb/">Anon SVN</a>  	|  
+			 <a href="http://fisheye.jboss.org/browse/JBossWeb">FishEye</a>   
+				</td>
+				<td>
+			 <a href="http://www.gnu.org/licenses/lgpl.txt">LGPL3</a>   
+				</td>
+			</tr>
+			<tr class="evenRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med jbossws_icon_16x">&nbsp;</span>
+					 <a href="/jbossws" >JBoss Web Services</a>
+				</td>
+				<td>
+			 <a href="/jbossws/downloads">Downloads</a>   
+				</td>
+				<td>
+			 <a href="/jbossws/docs">Documentation</a>   
+				</td>
+				<td>
+			 <a href="http://www.jboss.org/community/wiki/JBossWS">Wiki</a>  	|  
+			 <a href="http://www.jboss.org/index.html?module=bb&amp;op=viewforum&amp;f=200">User forum</a>  	|  
+			 <a href="http://www.jboss.org/index.html?module=bb&amp;op=viewforum&amp;f=174">Dev. forum</a>  	|  
+			 <a href="http://jbossws.blogspot.com/">Blog</a>   
+				</td>
+				<td>
+			 <a href="https://jira.jboss.org/jira/browse/JBWS">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="http://anonsvn.jboss.org/repos/jbossws">Anon SVN</a>  	|  
+			 <a href="https://svn.jboss.org/repos/jbossws">Commiter SVN</a>   
+				</td>
+				<td>
+			 <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">LGPL</a>   
+				</td>
+			</tr>
+			<tr class="oddRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med jbpm_icon_16x">&nbsp;</span>
+					 <a href="/jbpm" >jBPM</a>
+				</td>
+				<td>
+			 <a href="http://sourceforge.net/projects/jbpm/files/">Downloads</a>   
+				</td>
+				<td>
+			 <a href="/jbpm/documentation">Documentation</a>   
+				</td>
+				<td>
+			 <a href="http://community.jboss.org/wiki/jBPM">Wiki</a>  	|  
+			 <a href="http://community.jboss.org/en/jbpm?view=discussions">User forum</a>  	|  
+			 <a href="/jbpm/lists">Mailing list</a>  	|  
+			 <a href="/jbpm/irc">Chat</a>   
+				</td>
+				<td>
+			 <a href="https://jira.jboss.org/browse/JBPM">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="http://github.com/droolsjbpm">GitHub</a>   
+				</td>
+				<td>
+			 <a href="http://www.apache.org/licenses/LICENSE-2.0">ASL</a>   
+				</td>
+			</tr>
+			<tr class="evenRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med jca_icon_16x">&nbsp;</span>
+					 <a href="/jca" >JCA</a>
+				</td>
+				<td>
+			 <a href="/jca/downloads">Downloads</a>   
+				</td>
+				<td>
+			 <a href="/jca/docs">Documentation</a>   
+				</td>
+				<td>
+			 <a href="http://www.jboss.org/community/wiki/JBossJCAPOJO">Wiki</a>  	|  
+			 <a href="http://www.jboss.org/index.html?module=bb&amp;op=viewforum&amp;f=136">User forum</a>  	|  
+			 <a href="http://www.jboss.org/index.html?module=bb&amp;op=viewforum&amp;f=165">Dev. forum</a>  	|  
+			 <a href="/jca/community">Community</a>   
+				</td>
+				<td>
+			 <a href="/jca/issues">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="http://anonsvn.jboss.org/repos/jbossas/projects/jboss-jca/trunk/">Anon SVN</a>  	|  
+			 <a href="https://svn.jboss.org/repos/jbossas/projects/jboss-jca/trunk/">Commiter SVN</a>   
+				</td>
+				<td>
+				</td>
+			</tr>
+			<tr class="oddRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med jgroups_icon_16x">&nbsp;</span>
+					 <a href="http://www.jgroups.org" >JGroups</a>
+				</td>
+				<td>
+			 <a href="http://sourceforge.net/project/showfiles.php?group_id=6081">Downloads</a>   
+				</td>
+				<td>
+			 <a href="http://www.jgroups.org/ug.html">Documentation</a>   
+				</td>
+				<td>
+			 <a href="http://wiki.jboss.org/wiki/Wiki.jsp?page=JGroups">Wiki</a>  	|  
+			 <a href="http://sourceforge.net/mail/?group_id=6081">Mailing list</a>   
+				</td>
+				<td>
+			 <a href="http://jira.jboss.com/jira/browse/JGRP">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="https://github.com/belaban/JGroups">GitHub</a>   
+				</td>
+				<td>
+			 <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">LGPL</a>   
+				</td>
+			</tr>
+			<tr class="evenRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med jopr_icon_16x">&nbsp;</span>
+					 <a href="/jopr" >RHQ</a>
+				</td>
+				<td>
+			 <a href="https://www.jboss.org/community/docs/DOC-12805">Downloads</a>   
+				</td>
+				<td>
+			 <a href="http://rhq-project.org/display/JOPR2/Home">Documentation</a>   
+				</td>
+				<td>
+			 <a href="http://rhq-project.org/display/JOPR2/Home">Wiki</a>  	|  
+			 <a href="http://www.jboss.com/index.html?module=bb&amp;op=viewforum&amp;f=292">User forum</a>  	|  
+			 <a href="https://fedorahosted.org/mailman/listinfo/rhq-users">Mailing list</a>  	|  
+			 <a href="irc://irc.freenode.net/#rhq">Chat</a>   
+				</td>
+				<td>
+			 <a href="https://bugzilla.redhat.com/browse.cgi?product=RHQ%20Project">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="http://git.fedorahosted.org/git/rhq/rhq.git">Anon SVN</a>  	|  
+			 <a href="ssh://git.fedorahosted.org/git/rhq/rhq.git">Commiter SVN</a>   
+				</td>
+				<td>
+				</td>
+			</tr>
+			<tr class="oddRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med jsfunit_icon_16x">&nbsp;</span>
+					 <a href="/jsfunit" >JSFUnit</a>
+				</td>
+				<td>
+			 <a href="/jsfunit/downloads">Downloads</a>   
+				</td>
+				<td>
+			 <a href="http://community.jboss.org/wiki/JSFUnitDocumentation">Documentation</a>   
+				</td>
+				<td>
+			 <a href="http://community.jboss.org/wiki/JBossJSFUnit">Wiki</a>  	|  
+			 <a href="http://community.jboss.org/en/jsfunit?view=overview">User forum</a>  	|  
+			 <a href="http://www.jboss.com/index.html?module=bb&amp;op=viewforum&amp;f=269">Dev. forum</a>  	|  
+			 <a href="https://lists.jboss.org/mailman/listinfo/jsfunit-dev">Mailing list</a>   
+				</td>
+				<td>
+			 <a href="http://jira.jboss.org/jira/browse/JSFUNIT">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="https://github.com/jsfunit/jsfunit">GitHub</a>   
+				</td>
+				<td>
+			 <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">LGPL</a>   
+				</td>
+			</tr>
+			<tr class="evenRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med mass_icon_16x">&nbsp;</span>
+					 <a href="/mass" >Mass</a>
+				</td>
+				<td>
+				</td>
+				<td>
+				</td>
+				<td>
+			 <a href="https://www.jboss.org/community/docs/DOC-13280">Wiki</a>  	|  
+			 <a href="http://community.jboss.org/en/mass?view=discussions">User forum</a>  	|  
+			 <a href="http://community.jboss.org/en/mass/dev?view=discussions">Dev. forum</a>  	|  
+			 <a href="/mass/mailinglists">Mailing list</a>   
+				</td>
+				<td>
+			 <a href="https://jira.jboss.org/jira/browse/MASS">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="http://anonsvn.jboss.org/repos/mass/">Anon SVN</a>  	|  
+			 <a href="https://svn.jboss.org/repos/mass">Commiter SVN</a>   
+				</td>
+				<td>
+			 <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">LGPL</a>   
+				</td>
+			</tr>
+			<tr class="oddRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med maven-buildmagic-thirdparty-plugin_icon_16x">&nbsp;</span>
+					 <a href="/maven-buildmagic-thirdparty-plugin" >Maven Buildmagic Thirdparty Plugin</a>
+				</td>
+				<td>
+			 <a href="http://repository.jboss.org/maven2/org/jboss/maven/plugins/maven-buildmagic-thirdparty-plugin/">Downloads</a>   
+				</td>
+				<td>
+			 <a href="http://www.jboss.org/files/maven-buildmagic-thirdparty-plugin/apidocs/index.html">Documentation</a>   
+				</td>
+				<td>
+			 <a href="http://www.jboss.org/community/docs/DOC-10550">Wiki</a>   
+				</td>
+				<td>
+			 <a href="http://jira.jboss.org/jira/browse/JBBUILD">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="http://anonsvn.jboss.org/repos/maven/plugins/jboss/trunk/maven-buildmagic-thirdparty-plugin/">Anon SVN</a>  	|  
+			 <a href="https://svn.jboss.org/repos/maven/plugins/jboss/trunk/maven-buildmagic-thirdparty-plugin/">Commiter SVN</a>   
+				</td>
+				<td>
+				</td>
+			</tr>
+			<tr class="evenRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med maven-jboss-deploy-plugin_icon_16x">&nbsp;</span>
+					 <a href="/maven-jboss-deploy-plugin" >Maven jBoss-deploy Plugin</a>
+				</td>
+				<td>
+				</td>
+				<td>
+			 <a href="http://www.jboss.org/files/maven-jboss-deploy-plugin/apidocs/index.html">Documentation</a>   
+				</td>
+				<td>
+				</td>
+				<td>
+			 <a href="http://www.jboss.org/maven-jboss-deploy-plugin/issue-tracking.html">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="http://anonsvn.jboss.org/repos/labs/labs/jbossbuild/maven-plugins/trunk/maven-jboss-deploy-plugin/">Anon SVN</a>  	|  
+			 <a href="https://svn.jboss.org/repos/labs/labs/jbossbuild/maven-plugins/trunk/maven-jboss-deploy-plugin/">Commiter SVN</a>   
+				</td>
+				<td>
+				</td>
+			</tr>
+			<tr class="oddRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med maven-jboss-retro-plugin_icon_16x">&nbsp;</span>
+					 <a href="/maven-jboss-retro-plugin" >Maven jBoss-retro Plugin</a>
+				</td>
+				<td>
+			 <a href="http://repository.jboss.org/maven2/org/jboss/maven/plugins/maven-jboss-retro-plugin">Downloads</a>   
+				</td>
+				<td>
+			 <a href="http://www.jboss.org/maven-jboss-retro-plugin/usage.html">Documentation</a>   
+				</td>
+				<td>
+			 <a href="http://www.jboss.org/community/docs/DOC-11073">Wiki</a>   
+				</td>
+				<td>
+			 <a href="http://jira.jboss.org/jira/browse/JBBUILD">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="http://anonsvn.jboss.org/repos/labs/labs/jbossbuild/maven-plugins/trunk/maven-jboss-retro-plugin/">Anon SVN</a>  	|  
+			 <a href="https://svn.jboss.org/repos/labs/labs/jbossbuild/maven-plugins/trunk/maven-jboss-retro-plugin/">Commiter SVN</a>   
+				</td>
+				<td>
+				</td>
+			</tr>
+			<tr class="evenRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med maven-jdocbook-plugin_icon_16x">&nbsp;</span>
+					 <a href="/maven-jdocbook-plugin" >Maven jDocBook Plugin</a>
+				</td>
+				<td>
+			 <a href="http://repository.jboss.org/maven2/org/jboss/maven/plugins/maven-jdocbook-plugin/">Downloads</a>   
+				</td>
+				<td>
+			 <a href="http://www.jboss.org/files/maven-jdocbook-plugin/apidocs/index.html">Documentation</a>   
+				</td>
+				<td>
+			 <a href="http://www.jboss.org/community/docs/DOC-10550">Wiki</a>  	|  
+			 <a href="http://www.jboss.org/maven-jdocbook-plugin/mail-lists.html">Mailing list</a>   
+				</td>
+				<td>
+			 <a href="https://jira.jboss.org/browse/MPJDOCBOOK">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="https://anonsvn.jboss.org/repos/maven/plugins/jdocbook/maven-jdocbook-plugin">Anon SVN</a>  	|  
+			 <a href="https://svn.jboss.org/repos/maven/plugins/jdocbook/maven-jdocbook-plugin">Commiter SVN</a>   
+				</td>
+				<td>
+				</td>
+			</tr>
+			<tr class="oddRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med maven-jdocbook-style-plugin_icon_16x">&nbsp;</span>
+					 <a href="/maven-jdocbook-style-plugin" >Maven jDocBook Style Plugin</a>
+				</td>
+				<td>
+			 <a href="http://repository.jboss.org/maven2/org/jboss/maven/plugins/maven-jdocbook-style-plugin/">Downloads</a>   
+				</td>
+				<td>
+				</td>
+				<td>
+			 <a href="http://www.jboss.org/community/docs/DOC-10550">Wiki</a>   
+				</td>
+				<td>
+				</td>
+				<td>
+			 <a href="http://anonsvn.jboss.org/repos/labs/labs/jbossbuild/maven-plugins/trunk/maven-jdocbook-style-plugin/">Anon SVN</a>  	|  
+			 <a href="https://svn.jboss.org/repos/labs/labs/jbossbuild/maven-plugins/trunk/maven-jdocbook-style-plugin/">Commiter SVN</a>   
+				</td>
+				<td>
+				</td>
+			</tr>
+			<tr class="evenRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med mobicents_icon_16x">&nbsp;</span>
+					 <a href="/mobicents" >Mobicents</a>
+				</td>
+				<td>
+			 <a href="/mobicents/downloads">Downloads</a>   
+				</td>
+				<td>
+			 <a href="/mobicents/docs">Documentation</a>   
+				</td>
+				<td>
+			 <a href="http://community.jboss.org/en/mobicents">Wiki</a>  	|  
+			 <a href="http://groups.google.com/group/mobicents-public">User forum</a>  	|  
+			 <a href="irc://irc.freenode.org/mobicents">Chat</a>  	|  
+			 <a href="/mobicents/community">Community</a>   
+				</td>
+				<td>
+			 <a href="/mobicents/issue-tracker">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="/mobicents/source-code">Source</a>   
+				</td>
+				<td>
+			 <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">LGPL</a>   
+				</td>
+			</tr>
+			<tr class="oddRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med mod_cluster_icon_16x">&nbsp;</span>
+					 <a href="/mod_cluster" >mod_cluster</a>
+				</td>
+				<td>
+			 <a href="/mod_cluster/downloads">Downloads</a>   
+				</td>
+				<td>
+			 <a href="/mod_cluster/docs">Documentation</a>   
+				</td>
+				<td>
+			 <a href="http://www.jboss.org/community/docs/DOC-11431">Wiki</a>  	|  
+			 <a href="http://www.jboss.com/index.html?module=bb&amp;op=viewforum&amp;f=288">User forum</a>  	|  
+			 <a href="http://www.jboss.org/index.html?module=bb&amp;op=viewforum&amp;f=155">Dev. forum</a>  	|  
+			 <a href="https://lists.jboss.org/mailman/listinfo/mod_cluster-dev">Mailing list</a>   
+				</td>
+				<td>
+			 <a href="http://jira.jboss.org/jira/browse/MODCLUSTER">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="http://anonsvn.jboss.org/repos/mod_cluster/trunk/">Anon SVN</a>  	|  
+			 <a href="https://svn.jboss.org/repos/mod_cluster/trunk/">Commiter SVN</a>   
+				</td>
+				<td>
+			 <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">LGPL</a>   
+				</td>
+			</tr>
+			<tr class="evenRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med modeshape_icon_16x">&nbsp;</span>
+					 <a href="/modeshape" >ModeShape</a>
+				</td>
+				<td>
+			 <a href="/modeshape/downloads">Downloads</a>   
+				</td>
+				<td>
+			 <a href="/modeshape/docs">Documentation</a>   
+				</td>
+				<td>
+			 <a href="http://community.jboss.org/community/modeshape">User forum</a>  	|  
+			 <a href="/modeshape/mailinglists">Mailing list</a>  	|  
+			 <a href="/modeshape/chat">Chat</a>  	|  
+			 <a href="http://modeshape.wordpress.com/">Blog</a>   
+				</td>
+				<td>
+			 <a href="https://jira.jboss.org/browse/MODE">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="http://github.com/ModeShape/modeshape">GitHub</a>  	|  
+			 <a href="http://fisheye.jboss.org/browse/modeshape">FishEye</a>   
+				</td>
+				<td>
+			 <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">LGPL</a>   
+				</td>
+			</tr>
+			<tr class="oddRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med narayana_icon_16x">&nbsp;</span>
+					 <a href="/narayana" >Narayana</a>
+				</td>
+				<td>
+			 <a href="/jbosstm/downloads">Downloads</a>   
+				</td>
+				<td>
+			 <a href="/jbosstm/documentation">Documentation</a>   
+				</td>
+				<td>
+			 <a href="http://jboss.org/wiki/Wiki.jsp?page=JBossTransactions">Wiki</a>  	|  
+			 <a href="http://community.jboss.org/en/jbosstm?view=discussions">User forum</a>  	|  
+			 <a href="http://community.jboss.org/en/jbosstm/dev?view=discussions">Dev. forum</a>  	|  
+			 <a href="irc://irc.freenode.net:6667/jbossts">Chat</a>   
+				</td>
+				<td>
+			 <a href="https://issues.jboss.org/browse/JBTM">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="http://fisheye.jboss.org/browse/narayana">FishEye</a>  	|  
+			 <a href="/narayana/subversion">Source</a>   
+				</td>
+				<td>
+			 <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">LGPL</a>   
+				</td>
+			</tr>
+			<tr class="evenRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med overlord_icon_16x">&nbsp;</span>
+					 <a href="/overlord" >Overlord</a>
+				</td>
+				<td>
+			 <a href="/overlord/downloads">Downloads</a>   
+				</td>
+				<td>
+			 <a href="/overlord/documentation">Documentation</a>   
+				</td>
+				<td>
+			 <a href="http://www.jboss.com/index.html?module=bb&amp;op=viewforum&amp;f=279">User forum</a>  	|  
+			 <a href="http://www.jboss.com/index.html?module=bb&amp;op=viewforum&amp;f=280">Dev. forum</a>  	|  
+			 <a href="/overlord/irc">Chat</a>  	|  
+			 <a href="http://jboss-overlord.blogspot.com/">Blog</a>   
+				</td>
+				<td>
+			 <a href="/overlord/issues">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="https://github.com/governance">GitHub</a>   
+				</td>
+				<td>
+			 <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">LGPL</a>   
+				</td>
+			</tr>
+			<tr class="oddRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med picketbox_icon_16x">&nbsp;</span>
+					 <a href="/picketbox" >PicketBox</a>
+				</td>
+				<td>
+			 <a href="/picketbox/downloads">Downloads</a>   
+				</td>
+				<td>
+			 <a href="http://community.jboss.org/docs/DOC-14744">Documentation</a>   
+				</td>
+				<td>
+			 <a href="http://community.jboss.org/en/jbossas/picketbox?view=documents">Wiki</a>  	|  
+			 <a href="http://community.jboss.org/en/jbossas/picketbox?view=discussions">User forum</a>  	|  
+			 <a href="http://community.jboss.org/community/picketbox/dev?view=discussions">Dev. forum</a>  	|  
+			 <a href="http://anil-identity.blogspot.com">Blog</a>   
+				</td>
+				<td>
+			 <a href="https://jira.jboss.org/jira/browse/SECURITY">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="http://anonsvn.jboss.org/repos/picketbox">Anon SVN</a>  	|  
+			 <a href="https://svn.jboss.org/repos/picketbox">Commiter SVN</a>   
+				</td>
+				<td>
+			 <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">LGPL</a>   
+				</td>
+			</tr>
+			<tr class="evenRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med picketlink_icon_16x">&nbsp;</span>
+					 <a href="/picketlink" >PicketLink</a>
+				</td>
+				<td>
+			 <a href="/picketlink/downloads">Downloads</a>   
+				</td>
+				<td>
+			 <a href="/picketlink/docs">Documentation</a>   
+				</td>
+				<td>
+			 <a href="http://www.jboss.org/community/docs/DOC-13254">Wiki</a>  	|  
+			 <a href="http://www.jboss.org/index.html?module=bb&amp;op=viewforum&amp;f=305">User forum</a>  	|  
+			 <a href="http://www.jboss.com/index.html?module=bb&amp;op=viewforum&amp;f=284">Dev. forum</a>  	|  
+			 <a href="http://anil-identity.blogspot.com/">Blog</a>   
+				</td>
+				<td>
+			 <a href="http://jira.jboss.org/jira/browse/PLINK">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="http://anonsvn.jboss.org/repos/picketlink/">Anon SVN</a>  	|  
+			 <a href="https://svn.jboss.org/repos/picketlink/">Commiter SVN</a>   
+				</td>
+				<td>
+			 <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">LGPL</a>   
+				</td>
+			</tr>
+			<tr class="oddRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med portletbridge_icon_16x">&nbsp;</span>
+					 <a href="/portletbridge" >Portlet Bridge</a>
+				</td>
+				<td>
+			 <a href="/portletbridge/downloads">Downloads</a>   
+				</td>
+				<td>
+			 <a href="/portletbridge/docs">Documentation</a>   
+				</td>
+				<td>
+			 <a href="https://community.jboss.org/en/portletbridge?view=discussions">User forum</a>  	|  
+			 <a href="https://community.jboss.org/en/portletbridge/dev?view=discussions">Dev. forum</a>  	|  
+			 <a href="https://community.jboss.org/en/portletbridge/blog">Blog</a>  	|  
+			 <a href="https://community.jboss.org/en/portletbridge">Community</a>   
+				</td>
+				<td>
+			 <a href="https://jira.jboss.org/jira/browse/PBR">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="https://github.com/jbossportletbridge/jbossportletbridge">GitHub</a>  	|  
+			 <a href="http://anonsvn.jboss.org/repos/portletbridge">Anon SVN</a>   
+				</td>
+				<td>
+			 <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">LGPL</a>   
+				</td>
+			</tr>
+			<tr class="evenRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med pressgang_icon_16x">&nbsp;</span>
+					 <a href="/pressgang" >PressGang</a>
+				</td>
+				<td>
+			 <a href="/pressgang/download">Downloads</a>   
+				</td>
+				<td>
+			 <a href="/pressgang/jdg">Documentation</a>   
+				</td>
+				<td>
+			 <a href="https://community.jboss.org/en/pressgang">User forum</a>  	|  
+			 <a href="http://twitter.com/#!/pressgang">Twitter</a>   
+				</td>
+				<td>
+			 <a href="https://issues.jboss.org/browse/pressgang#selectedTab=com.atlassian.jira.plugin.system.project%3Aissues-panel">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="https://github.com/pressgang">GitHub</a>   
+				</td>
+				<td>
+				</td>
+			</tr>
+			<tr class="oddRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med resteasy_icon_16x">&nbsp;</span>
+					 <a href="/resteasy" >RESTEasy</a>
+				</td>
+				<td>
+			 <a href="https://sourceforge.net/projects/resteasy/files/Resteasy%20JAX-RS/">Downloads</a>   
+				</td>
+				<td>
+			 <a href="/resteasy/docs">Documentation</a>   
+				</td>
+				<td>
+			 <a href="https://www.jboss.org/community/docs/DOC-12837">Wiki</a>  	|  
+			 <a href="/resteasy/mailinglists">Mailing list</a>  	|  
+			 <a href="http://bill.burkecentral.com/category/rest/">Blog</a>  	|  
+			 <a href="http://twitter.com/resteasy">Twitter</a>   
+				</td>
+				<td>
+			 <a href="http://jira.jboss.org/jira/browse/RESTEASY">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="https://github.com/resteasy/Resteasy">GitHub</a>   
+				</td>
+				<td>
+			 <a href="http://www.apache.org/licenses/LICENSE-2.0">ASL</a>   
+				</td>
+			</tr>
+			<tr class="evenRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med rhq_icon_16x">&nbsp;</span>
+					 <a href="/rhq" >RHQ (formerly Jopr)</a>
+				</td>
+				<td>
+			 <a href="http://www.rhq-project.org/display/RHQ/Download">Downloads</a>   
+				</td>
+				<td>
+			 <a href="https://docs.jboss.org/author/display/RHQ/User+Documentation">Documentation</a>   
+				</td>
+				<td>
+			 <a href="https://docs.jboss.org/author/display/RHQ/Home">Wiki</a>  	|  
+			 <a href="http://www.jboss.com/index.html?module=bb&amp;op=viewforum&amp;f=292">User forum</a>  	|  
+			 <a href="https://fedorahosted.org/mailman/listinfo/rhq-users">Mailing list</a>  	|  
+			 <a href="irc://irc.freenode.net/#rhq">Chat</a>   
+				</td>
+				<td>
+			 <a href="https://bugzilla.redhat.com/browse.cgi?product=RHQ%20Project">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="http://git.fedorahosted.org/git/rhq/rhq.git">Anon GIT</a>  	|  
+			 <a href="ssh://git.fedorahosted.org/git/rhq/rhq.git">Commiter GIT</a>   
+				</td>
+				<td>
+			 <a href="http://www.gnu.org/licenses/gpl-2.0.html">Other</a>   
+				</td>
+			</tr>
+			<tr class="oddRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med richfaces_icon_16x">&nbsp;</span>
+					 <a href="/richfaces" >RichFaces</a>
+				</td>
+				<td>
+			 <a href="/richfaces/download">Downloads</a>   
+				</td>
+				<td>
+			 <a href="/richfaces/docs">Documentation</a>   
+				</td>
+				<td>
+			 <a href="http://www.jboss.org/community/wiki/richfaceswikihomepage">Wiki</a>  	|  
+			 <a href="http://www.jboss.org/index.html?module=bb&amp;op=viewforum&amp;f=261">User forum</a>  	|  
+			 <a href="http://www.jboss.org/index.html?module=bb&amp;op=viewforum&amp;f=262">Dev. forum</a>  	|  
+			 <a href="irc://irc.freenode.net/richfaces">Chat</a>   
+				</td>
+				<td>
+			 <a href="/richfaces/issuetracker">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="https://github.com/richfaces/">GitHub</a>  	|  
+			 <a href="http://source.jboss.org/project/REV-RF">FishEye</a>   
+				</td>
+				<td>
+			 <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">LGPL</a>   
+				</td>
+			</tr>
+			<tr class="evenRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med riftsaw_icon_16x">&nbsp;</span>
+					 <a href="/riftsaw" >RiftSaw Open Source BPEL</a>
+				</td>
+				<td>
+			 <a href="/riftsaw/downloads">Downloads</a>   
+				</td>
+				<td>
+			 <a href="/riftsaw/documentation">Documentation</a>   
+				</td>
+				<td>
+			 <a href="http://www.jboss.org/community/wiki/RiftSaw">Wiki</a>  	|  
+			 <a href="http://www.jboss.org/index.html?module=bb&amp;op=viewforum&amp;f=333">User forum</a>  	|  
+			 <a href="http://www.jboss.org/index.html?module=bb&amp;op=viewforum&amp;f=334">Dev. forum</a>  	|  
+			 <a href="http://riftsaw.blogspot.com/">Blog</a>   
+				</td>
+				<td>
+			 <a href="https://jira.jboss.org/jira/browse/RIFTSAW">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="http://anonsvn.jboss.org/repos/riftsaw">Anon SVN</a>  	|  
+			 <a href="https://svn.jboss.org/repos/riftsaw">Commiter SVN</a>   
+				</td>
+				<td>
+			 <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">LGPL</a>   
+				</td>
+			</tr>
+			<tr class="oddRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med savara_icon_16x">&nbsp;</span>
+					 <a href="/savara" >Savara</a>
+				</td>
+				<td>
+			 <a href="/savara/downloads">Downloads</a>   
+				</td>
+				<td>
+			 <a href="/savara/documentation">Documentation</a>   
+				</td>
+				<td>
+			 <a href="http://www.jboss.org/community/wiki/SAVARA">Wiki</a>  	|  
+			 <a href="http://www.jboss.org/index.html?module=bb&amp;op=viewforum&amp;f=331">User forum</a>  	|  
+			 <a href="http://www.jboss.org/index.html?module=bb&amp;op=viewforum&amp;f=332">Dev. forum</a>  	|  
+			 <a href="http://jboss-savara.blogspot.com">Blog</a>   
+				</td>
+				<td>
+			 <a href="https://jira.jboss.org/jira/browse/SAVARA">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="https://github.com/savara">GitHub</a>   
+				</td>
+				<td>
+			 <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">LGPL</a>   
+				</td>
+			</tr>
+			<tr class="evenRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med scribble_icon_16x">&nbsp;</span>
+					 <a href="/scribble" >Scribble</a>
+				</td>
+				<td>
+			 <a href="/scribble/downloads">Downloads</a>   
+				</td>
+				<td>
+			 <a href="/scribble/docs">Documentation</a>   
+				</td>
+				<td>
+			 <a href="http://community.jboss.org/wiki/Scribble">Wiki</a>  	|  
+			 <a href="http://community.jboss.org/en/scribble">User forum</a>  	|  
+			 <a href="http://community.jboss.org/en/scribble/dev">Dev. forum</a>  	|  
+			 <a href="https://lists.jboss.org/mailman/listinfo/scribble-research">Mailing list</a>   
+				</td>
+				<td>
+			 <a href="https://jira.jboss.org/jira/browse/SCRIBBLE">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="https://github.com/scribble">GitHub</a>  	|  
+			 <a href="/scribble/sourcecode">Source</a>   
+				</td>
+				<td>
+			 <a href="http://www.apache.org/licenses/LICENSE-2.0">ASL</a>   
+				</td>
+			</tr>
+			<tr class="oddRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med seam_projectnav_icon_16x">&nbsp;</span>
+					 <a href="http://seamframework.org" >Seam</a>
+				</td>
+				<td>
+			 <a href="http://www.seamframework.org/Download">Downloads</a>   
+				</td>
+				<td>
+			 <a href="http://www.seamframework.org/Seam2/Documentation">Documentation</a>   
+				</td>
+				<td>
+			 <a href="http://www.seamframework.org/Community/SeamUsers">User forum</a>  	|  
+			 <a href="http://www.seamframework.org/Documentation/KnowledgeBase">Community</a>   
+				</td>
+				<td>
+			 <a href="http://jira.jboss.org/jira/browse/JBSEAM">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="http://anonsvn.jboss.org/repos/seam">Anon SVN</a>  	|  
+			 <a href="http://fisheye.jboss.org/browse/Seam">FishEye</a>   
+				</td>
+				<td>
+			 <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">LGPL</a>   
+				</td>
+			</tr>
+			<tr class="evenRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med serialization_icon_16x">&nbsp;</span>
+					 <a href="/serialization" >Serialization</a>
+				</td>
+				<td>
+			 <a href="/serialization/downloads">Downloads</a>   
+				</td>
+				<td>
+				</td>
+				<td>
+			 <a href="http://www.jboss.com/index.html?module=bb&amp;op=viewforum&amp;f=233">Dev. forum</a>  	|  
+			 <a href="http://www.jboss.org/feeds/view/serialization">Blog</a>   
+				</td>
+				<td>
+			 <a href="http://jira.jboss.org/jira/browse/JBSER">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="http://anonsvn.jboss.org/repos/jbossserialization">Anon SVN</a>  	|  
+			 <a href="http://viewvc.jboss.org/cgi-bin/viewvc.cgi/jbossserialization">ViewVC</a>   
+				</td>
+				<td>
+			 <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">LGPL</a>   
+				</td>
+			</tr>
+			<tr class="oddRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med shrinkwrap_icon_16x">&nbsp;</span>
+					 <a href="/shrinkwrap" >Shrinkwrap</a>
+				</td>
+				<td>
+			 <a href="/shrinkwrap/downloads">Downloads</a>   
+				</td>
+				<td>
+			 <a href="http://docs.jboss.org/shrinkwrap">Documentation</a>   
+				</td>
+				<td>
+			 <a href="http://www.jboss.org/community/docs/DOC-14138">Wiki</a>  	|  
+			 <a href="http://community.jboss.org/en/shrinkwrap?view=discussions">User forum</a>  	|  
+			 <a href="http://community.jboss.org/en/shrinkwrap/dev?view=discussions">Dev. forum</a>  	|  
+			 <a href="https://lists.jboss.org/mailman/listinfo/shrinkwrap-issues">Mailing list</a>   
+				</td>
+				<td>
+			 <a href="http://jira.jboss.org/jira/browse/SHRINKWRAP">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="http://github.com/shrinkwrap/shrinkwrap">GitHub</a>   
+				</td>
+				<td>
+			 <a href="http://www.apache.org/licenses/LICENSE-2.0">ASL</a>   
+				</td>
+			</tr>
+			<tr class="evenRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med snowdrop_icon_16x">&nbsp;</span>
+					 <a href="/snowdrop" >Snowdrop</a>
+				</td>
+				<td>
+			 <a href="/snowdrop/downloads">Downloads</a>   
+				</td>
+				<td>
+			 <a href="/snowdrop/documentation">Documentation</a>   
+				</td>
+				<td>
+			 <a href="http://www.jboss.org/index.html?module=bb&amp;op=viewforum&amp;f=223">User forum</a>  	|  
+			 <a href="http://community.jboss.org/en/snowdrop/blog">Blog</a>  	|  
+			 <a href="/snowdrop/community">Community</a>   
+				</td>
+				<td>
+			 <a href="https://jira.jboss.org/jira/browse/SNOWDROP">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="https://github.com/snowdrop/snowdrop">GitHub</a>  	|  
+			 <a href="git://github.com/snowdrop/snowdrop.git">Anon GIT</a>   
+				</td>
+				<td>
+			 <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">LGPL</a>   
+				</td>
+			</tr>
+			<tr class="oddRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med stormgrind_icon_16x">&nbsp;</span>
+					 <a href="/stormgrind" >StormGrind</a>
+				</td>
+				<td>
+			 <a href="/stormgrind/downloads">Downloads</a>   
+				</td>
+				<td>
+			 <a href="http://www.jboss.org/community/wiki/StormGrindDocumentation">Documentation</a>   
+				</td>
+				<td>
+			 <a href="http://community.jboss.org/en/stormgrind?view=discussions">User forum</a>  	|  
+			 <a href="irc://irc.freenode.net/stormgrind">Chat</a>  	|  
+			 <a href="http://cloudpress.org/">Blog</a>  	|  
+			 <a href="/stormgrind/community">Community</a>   
+				</td>
+				<td>
+			 <a href="/stormgrind/issues">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="/stormgrind/sourcecode">GitHub</a>   
+				</td>
+				<td>
+			 <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">LGPL</a>   
+				</td>
+			</tr>
+			<tr class="evenRow">
+			
+				<td style="font-weight: bold;">
+					<span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+					 <span class="project-icon-med cirras_icon_16x">&nbsp;</span>
+					 <a href="/stormgrind/projects/cirras" >CirrAS</a>
+				</td>
+				<td>
+			 <a href="/stormgrind/downloads/cirras">Downloads</a>   
+				</td>
+				<td>
+			 <a href="http://community.jboss.org/docs/DOC-14399">Documentation</a>   
+				</td>
+				<td>
+			 <a href="http://community.jboss.org/en/stormgrind?view=discussions">User forum</a>  	|  
+			 <a href="irc://irc.freenode.net/stormgrind">Chat</a>  	|  
+			 <a href="https://community.jboss.org/en/stormgrind?view=documents">Community</a>   
+				</td>
+				<td>
+			 <a href="/stormgrind/issues">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="http://github.com/stormgrind/cirras">GitHub</a>   
+				</td>
+				<td>
+			 <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">LGPL</a>   
+				</td>
+			</tr>
+			<tr class="oddRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med switchyard_icon_16x">&nbsp;</span>
+					 <a href="/switchyard" >SwitchYard</a>
+				</td>
+				<td>
+			 <a href="/switchyard/downloads">Downloads</a>   
+				</td>
+				<td>
+			 <a href="https://docs.jboss.org/author/display/SWITCHYARD/Home">Documentation</a>   
+				</td>
+				<td>
+			 <a href="http://community.jboss.org/en/switchyard/dev?view=documents">Wiki</a>  	|  
+			 <a href="http://community.jboss.org/en/switchyard?view=discussions">User forum</a>  	|  
+			 <a href="http://community.jboss.org/en/switchyard/dev?view=discussions">Dev. forum</a>  	|  
+			 <a href="irc://irc.freenode.org/#switchyard">Chat</a>   
+				</td>
+				<td>
+			 <a href="https://jira.jboss.org/browse/SWITCHYARD">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="http://github.com/jboss-switchyard">Anon SVN</a>  	|  
+			 <a href="/switchyard/sourcecode">Source</a>   
+				</td>
+				<td>
+			 <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">LGPL</a>   
+				</td>
+			</tr>
+			<tr class="evenRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med tattletale_icon_16x">&nbsp;</span>
+					 <a href="/tattletale" >Tattletale</a>
+				</td>
+				<td>
+			 <a href="/tattletale/downloads">Downloads</a>   
+				</td>
+				<td>
+			 <a href="/tattletale/docs">Documentation</a>   
+				</td>
+				<td>
+			 <a href="http://community.jboss.org/en/tattletale">User forum</a>  	|  
+			 <a href="http://community.jboss.org/en/tattletale/dev">Dev. forum</a>  	|  
+			 <a href="/tattletale/community">Community</a>   
+				</td>
+				<td>
+			 <a href="/tattletale/issues">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="https://github.com/jesperpedersen/tattletale">GitHub</a>  	|  
+			 <a href="http://fisheye.jboss.com/browse/Tattletale">FishEye</a>   
+				</td>
+				<td>
+			 <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">LGPL</a>   
+				</td>
+			</tr>
+			<tr class="oddRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med teiid_icon_16x">&nbsp;</span>
+					 <a href="/teiid" >Teiid</a>
+				</td>
+				<td>
+			 <a href="/teiid/downloads">Downloads</a>   
+				</td>
+				<td>
+			 <a href="/teiid/docs">Documentation</a>   
+				</td>
+				<td>
+			 <a href="https://www.jboss.org/community/docs/DOC-12956">Wiki</a>  	|  
+			 <a href="http://www.jboss.org/index.html?module=bb&amp;op=viewforum&amp;f=298">User forum</a>  	|  
+			 <a href="http://www.jboss.org/index.html?module=bb&amp;op=viewforum&amp;f=299">Dev. forum</a>  	|  
+			 <a href="/teiid/mailinglists">Mailing list</a>   
+				</td>
+				<td>
+			 <a href="https://jira.jboss.org/jira/browse/TEIID">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="http://anonsvn.jboss.org/repos/teiid/">Anon SVN</a>  	|  
+			 <a href="https://svn.jboss.org/repos/teiid/">Commiter SVN</a>   
+				</td>
+				<td>
+			 <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">LGPL</a>   
+				</td>
+			</tr>
+			<tr class="evenRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med teiiddesigner_icon_16x">&nbsp;</span>
+					 <a href="/teiiddesigner" >Teiid Designer</a>
+				</td>
+				<td>
+			 <a href="/teiiddesigner/downloads">Downloads</a>   
+				</td>
+				<td>
+			 <a href="/teiiddesigner/docs">Documentation</a>   
+				</td>
+				<td>
+			 <a href="http://www.jboss.org/index.html?module=bb&amp;op=viewforum&amp;f=302">User forum</a>  	|  
+			 <a href="http://www.jboss.org/index.html?module=bb&amp;op=viewforum&amp;f=303">Dev. forum</a>  	|  
+			 <a href="/teiiddesigner/mailinglists">Mailing list</a>  	|  
+			 <a href="/teiiddesigner/chat">Chat</a>   
+				</td>
+				<td>
+			 <a href="https://jira.jboss.org/jira/browse/TEIIDDES">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="http://anonsvn.jboss.org/repos/tdesigner/">Anon SVN</a>  	|  
+			 <a href="https://svn.jboss.org/repos/tdesigner/">Commiter SVN</a>   
+				</td>
+				<td>
+			 <a href="http://www.eclipse.org/legal/epl-v10.html">EPL</a>   
+				</td>
+			</tr>
+			<tr class="oddRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med tohu_icon_16x">&nbsp;</span>
+					 <a href="/tohu" >Tohu</a>
+				</td>
+				<td>
+				</td>
+				<td>
+			 <a href="http://www.jboss.org/community/wiki/Tohu">Documentation</a>   
+				</td>
+				<td>
+			 <a href="http://www.jboss.org/community/wiki/Tohu">Wiki</a>  	|  
+			 <a href="https://lists.jboss.org/mailman/listinfo/tohu-users">Mailing list</a>   
+				</td>
+				<td>
+			 <a href="https://jira.jboss.org/jira/browse/TOHU">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="http://anonsvn.jboss.org/repos/tohu/">Anon SVN</a>  	|  
+			 <a href="http://svn.jboss.org/repos/tohu/">Source</a>   
+				</td>
+				<td>
+			 <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">LGPL</a>   
+				</td>
+			</tr>
+			<tr class="evenRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med torquebox_icon_16x">&nbsp;</span>
+					 <a href="/torquebox" >TorqueBox</a>
+				</td>
+				<td>
+			 <a href="http://torquebox.org/download">Downloads</a>   
+				</td>
+				<td>
+			 <a href="http://torquebox.org/documentation">Documentation</a>   
+				</td>
+				<td>
+			 <a href="http://torquebox.org/community/mailing_lists">Mailing list</a>   
+				</td>
+				<td>
+			 <a href="http://jira.jboss.org/jira/browse/TORQUE">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="http://github.com/torquebox">GitHub</a>   
+				</td>
+				<td>
+			 <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">LGPL</a>   
+				</td>
+			</tr>
+			<tr class="oddRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med weld_projectnav_icon_16x">&nbsp;</span>
+					 <a href="http://www.seamframework.org/Weld" >Weld</a>
+				</td>
+				<td>
+			 <a href="http://www.seamframework.org/Weld/WeldDistributionDownloads">Downloads</a>   
+				</td>
+				<td>
+			 <a href="http://docs.jboss.org/weld/reference/latest/en-US/html">Documentation</a>   
+				</td>
+				<td>
+			 <a href="http://seamframework.org/Documentation/WebBeansJSR299">Wiki</a>  	|  
+			 <a href="http://seamframework.org/Community/WeldUsers">User forum</a>  	|  
+			 <a href="https://lists.jboss.org/mailman/listinfo/weld-dev">Dev. forum</a>   
+				</td>
+				<td>
+			 <a href="https://jira.jboss.org/jira/browse/WELD">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="http://github.com/weld">GitHub</a>   
+				</td>
+				<td>
+			 <a href="http://www.apache.org/licenses/LICENSE-2.0">ASL</a>   
+				</td>
+			</tr>
+			<tr class="evenRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med wise_icon_16x">&nbsp;</span>
+					 <a href="/wise" >Wise</a>
+				</td>
+				<td>
+			 <a href="/wise/downloads">Downloads</a>   
+				</td>
+				<td>
+			 <a href="http://www.jboss.org/community/wiki/Wise-coreProgrammerGuideversion11">Documentation</a>   
+				</td>
+				<td>
+			 <a href="https://www.jboss.org/community/docs/DOC-12753">Wiki</a>  	|  
+			 <a href="http://www.jboss.com/index.html?module=bb&amp;op=viewforum&amp;f=291">User forum</a>  	|  
+			 <a href="http://www.jboss.com/index.html?module=bb&amp;op=viewforum&amp;f=290">Dev. forum</a>  	|  
+			 <a href="http://jbosswise.blogspot.com/">Blog</a>   
+				</td>
+				<td>
+			 <a href="http://jira.jboss.org/jira/browse/WISE">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="http://anonsvn.jboss.org/repos/wise">Anon SVN</a>  	|  
+			 <a href="https://svn.jboss.org/repos/wise">Commiter SVN</a>   
+				</td>
+				<td>
+			 <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">LGPL</a>   
+				</td>
+			</tr>
+			<tr class="oddRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med xnio_icon_16x">&nbsp;</span>
+					 <a href="/xnio" >XNIO</a>
+				</td>
+				<td>
+			 <a href="/xnio/downloads">Downloads</a>   
+				</td>
+				<td>
+			 <a href="/xnio/docs">Documentation</a>   
+				</td>
+				<td>
+			 <a href="http://www.jboss.org/community/wiki/Xnio">Wiki</a>  	|  
+			 <a href="irc://irc.freenode.net/jboss">Chat</a>  	|  
+			 <a href="http://jboss.org/feeds/view/xnio">Blog</a>  	|  
+			 <a href="/xnio/community">Community</a>   
+				</td>
+				<td>
+			 <a href="https://jira.jboss.org/jira/browse/XNIO">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="http://github.com/dmlloyd/xnio">GitHub</a>   
+				</td>
+				<td>
+			 <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">LGPL</a>   
+				</td>
+			</tr>
+		<tr>
+			<td class="categoryRow" colspan="7">
+				<a class="anchorfix" name="archive"></a>
+					Archive
+			</td>
+		</tr>
+			<tr class="evenRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med davcache_icon_16x">&nbsp;</span>
+					 <a href="/davcache" >DavCache</a>
+				</td>
+				<td>
+			 <a href="/davcache/downloads">Downloads</a>   
+				</td>
+				<td>
+				</td>
+				<td>
+			 <a href="http://labs.jboss.com/wiki/Davcache">Wiki</a>  	|  
+			 <a href="http://jboss.org/feeds/view/davcache">Blog</a>   
+				</td>
+				<td>
+			 <a href="http://jira.jboss.org/jira/browse/DAVCACHE">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="http://anonsvn.jboss.org/repos/labs/labs/davcache/">Anon SVN</a>  	|  
+			 <a href="http://viewvc.jboss.org/cgi-bin/viewvc.cgi/labs/labs/davcache/">ViewVC</a>   
+				</td>
+				<td>
+			 <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">LGPL</a>   
+				</td>
+			</tr>
+			<tr class="oddRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med gravel_icon_16x">&nbsp;</span>
+					 <a href="/gravel" >Gravel</a>
+				</td>
+				<td>
+			 <a href="/gravel/downloads">Downloads</a>   
+				</td>
+				<td>
+				</td>
+				<td>
+			 <a href="irc://irc.freenode.net:6667/jsf">Chat</a>   
+				</td>
+				<td>
+			 <a href="http://jira.jboss.org/jira/browse/GRAVEL">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="http://anonsvn.jboss.org/repos/gravel/">Anon SVN</a>  	|  
+			 <a href="https://svn.jboss.org/repos/gravel/">Commiter SVN</a>   
+				</td>
+				<td>
+			 <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">LGPL</a>   
+				</td>
+			</tr>
+			<tr class="evenRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med jbossaop_icon_16x">&nbsp;</span>
+					 <a href="/jbossaop" >JBoss AOP</a>
+				</td>
+				<td>
+			 <a href="/jbossaop/downloads">Downloads</a>   
+				</td>
+				<td>
+			 <a href="http://www.jboss.org/jbossaop/docs/index.html">Documentation</a>   
+				</td>
+				<td>
+			 <a href="http://community.jboss.org/docs/DOC-10201">Wiki</a>  	|  
+			 <a href="http://community.jboss.org/en/jbossaop?view=discussions">User forum</a>  	|  
+			 <a href="http://community.jboss.org/en/jbossaop/dev?view=discussions">Dev. forum</a>  	|  
+			 <a href="https://lists.jboss.org/mailman/listinfo/jbossaop-dev">Mailing list</a>   
+				</td>
+				<td>
+			 <a href="/jbossaop/jira">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="http://anonsvn.jboss.org/repos/jbossas/projects/aop/">Anon SVN</a>  	|  
+			 <a href="http://fisheye.jboss.org/browse/JBossAS/projects/aop">FishEye</a>   
+				</td>
+				<td>
+				</td>
+			</tr>
+			<tr class="oddRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med jbossas6_icon_16x">&nbsp;</span>
+					 <a href="/jbossas" title="JBoss Application Server 6">JBoss AS 6</a>
+				</td>
+				<td>
+			 <a href="/jbossas/downloads">Downloads</a>   
+				</td>
+				<td>
+			 <a href="/jbossas/docs/6-x">Documentation</a>   
+				</td>
+				<td>
+			 <a href="http://www.jboss.org/community/docs/DOC-12934">Wiki</a>  	|  
+			 <a href="http://www.jboss.org/index.html?module=bb&amp;op=viewforum&amp;f=287">User forum</a>   
+				</td>
+				<td>
+			 <a href="http://jira.jboss.com/jira/browse/JBAS">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="http://anonsvn.jboss.org/repos/jbossas/">Anon SVN</a>  	|  
+			 <a href="http://source.jboss.org/browse/JBossAS">FishEye</a>   
+				</td>
+				<td>
+			 <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">LGPL</a>   
+				</td>
+			</tr>
+			<tr class="evenRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med jbossblog_icon_16x">&nbsp;</span>
+					 <a href="/jbossblog" >JBoss Blog</a>
+				</td>
+				<td>
+				</td>
+				<td>
+			 <a href="http://community.jboss.org/wiki/JBossBlog">Documentation</a>   
+				</td>
+				<td>
+			 <a href="http://community.jboss.org/wiki/JBossBlog">Wiki</a>  	|  
+			 <a href="http://community.jboss.org/en/jbossblogportlet/dev?view=discussions">Dev. forum</a>   
+				</td>
+				<td>
+			 <a href="http://jira.jboss.org/jira/browse/JBBLOG">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="http://anonsvn.jboss.org/repos/jbossblog/">Anon SVN</a>  	|  
+			 <a href="http://fisheye.jboss.org/browse/JBossBlog">FishEye</a>   
+				</td>
+				<td>
+			 <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">LGPL</a>   
+				</td>
+			</tr>
+			<tr class="oddRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med jbosscache_icon_16x">&nbsp;</span>
+					 <a href="/jbosscache" >JBoss Cache</a>
+				</td>
+				<td>
+			 <a href="http://www.jboss.org/community/docs/DOC-12844">Downloads</a>   
+				</td>
+				<td>
+			 <a href="http://www.jboss.org/community/docs/DOC-12843">Documentation</a>   
+				</td>
+				<td>
+			 <a href="http://community.jboss.org/docs/DOC-10242">Wiki</a>  	|  
+			 <a href="http://community.jboss.org/en/jbosscache?view=discussions">User forum</a>  	|  
+			 <a href="http://jbosscache.blogspot.com/">Blog</a>   
+				</td>
+				<td>
+			 <a href="http://jira.jboss.org/jira/browse/JBCACHE">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="http://fisheye.jboss.org/browse/JBossCache">FishEye</a>  	|  
+			 <a href="http://viewvc.jboss.org/cgi-bin/viewvc.cgi/jbosscache/">ViewVC</a>   
+				</td>
+				<td>
+			 <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">LGPL</a>   
+				</td>
+			</tr>
+			<tr class="evenRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med jbossforums_icon_16x">&nbsp;</span>
+					 <a href="/jbossforums/Overview" >JBoss Forums</a>
+				</td>
+				<td>
+			 <a href="/jbossforums/Downloads/new-downloads">Downloads</a>   
+				</td>
+				<td>
+			 <a href="/jbossforums/Documentation">Documentation</a>   
+				</td>
+				<td>
+			 <a href="http://www.jboss.org/wiki/JBossForums">Wiki</a>  	|  
+			 <a href="http://www.jboss.com/index.html?module=bb&amp;op=viewforum&amp;f=247">User forum</a>  	|  
+			 <a href="http://www.jboss.com/index.html?module=bb&amp;op=viewforum&amp;f=242">Dev. forum</a>   
+				</td>
+				<td>
+			 <a href="http://jira.jboss.com/jira/browse/JBFORUMS">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="http://anonsvn.jboss.org/repos/labs/labs/jbossforums/">Anon SVN</a>  	|  
+			 <a href="http://viewvc.jboss.org/cgi-bin/viewvc.cgi/labs/labs/jbossforums/">ViewVC</a>   
+				</td>
+				<td>
+				</td>
+			</tr>
+			<tr class="oddRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med jbossiiop_icon_16x">&nbsp;</span>
+					 <a href="/jbossiiop" >JBoss IIOP</a>
+				</td>
+				<td>
+				</td>
+				<td>
+				</td>
+				<td>
+			 <a href="http://www.jboss.org/community/docs/DOC-9732">Wiki</a>  	|  
+			 <a href="http://www.jboss.org/index.html?module=bb&amp;op=viewforum&amp;f=170">Dev. forum</a>   
+				</td>
+				<td>
+				</td>
+				<td>
+			 <a href="http://anonsvn.jboss.org/repos/jbossas/archives/trunk/contrib/iiop">Anon SVN</a>   
+				</td>
+				<td>
+				</td>
+			</tr>
+			<tr class="evenRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med jbossjmx_icon_16x">&nbsp;</span>
+					 <a href="/jbossjmx" >JBoss JMX</a>
+				</td>
+				<td>
+				</td>
+				<td>
+				</td>
+				<td>
+			 <a href="http://www.jboss.org/community/docs/DOC-9085">Wiki</a>  	|  
+			 <a href="http://www.jboss.org/index.html?module=bb&amp;op=viewforum&amp;f=63">User forum</a>  	|  
+			 <a href="http://jboss.org/index.html?module=bb&amp;op=viewforum&amp;f=161">Dev. forum</a>   
+				</td>
+				<td>
+			 <a href="http://jira.jboss.org/jira/browse/JBJMX">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="https://source.jboss.org/browse/JBossAS6/trunk/jmx">FishEye</a>   
+				</td>
+				<td>
+			 <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">LGPL</a>   
+				</td>
+			</tr>
+			<tr class="oddRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med jbossmessaging_icon_16x">&nbsp;</span>
+					 <a href="/jbossmessaging" >JBoss Messaging</a>
+				</td>
+				<td>
+			 <a href="/jbossmessaging/downloads">Downloads</a>   
+				</td>
+				<td>
+			 <a href="/jbossmessaging/docs">Documentation</a>   
+				</td>
+				<td>
+			 <a href="http://www.jboss.org/community/docs/DOC-10551">Wiki</a>  	|  
+			 <a href="http://www.jboss.org/index.html?module=bb&amp;op=viewforum&amp;f=238">User forum</a>  	|  
+			 <a href="http://www.jboss.com/index.html?module=bb&amp;op=viewforum&amp;f=153">Dev. forum</a>  	|  
+			 <a href="irc://irc.freenode.net:6667/jbossmessaging">Chat</a>   
+				</td>
+				<td>
+			 <a href="http://jira.jboss.org/jira/browse/JBMESSAGING">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="http://anonsvn.jboss.org/repos/messaging/">Anon SVN</a>  	|  
+			 <a href="https://svn.jboss.org/repos/messaging/">Commiter SVN</a>   
+				</td>
+				<td>
+			 <a href="http://www.apache.org/licenses/LICENSE-2.0">ASL</a>   
+				</td>
+			</tr>
+			<tr class="evenRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med jbossportal_icon_16x">&nbsp;</span>
+					 <a href="/jbossportal" >JBoss Portal</a>
+				</td>
+				<td>
+			 <a href="/jbossportal/download">Downloads</a>   
+				</td>
+				<td>
+			 <a href="/jbossportal/docs">Documentation</a>   
+				</td>
+				<td>
+			 <a href="http://www.jboss.org/community/docs/DOC-10692">Wiki</a>  	|  
+			 <a href="http://community.jboss.org/en/jbossportal?view=discussions">User forum</a>  	|  
+			 <a href="http://community.jboss.org/en/jbossportal/dev?view=discussions">Dev. forum</a>  	|  
+			 <a href="http://blog.jboss-portal.org/">Blog</a>   
+				</td>
+				<td>
+			 <a href="http://jira.jboss.org/jira/browse/JBPORTAL">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="http://anonsvn.jboss.org/repos/portal">Anon SVN</a>  	|  
+			 <a href="http://fisheye.jboss.org/browse/Portal">FishEye</a>   
+				</td>
+				<td>
+			 <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">LGPL</a>   
+				</td>
+			</tr>
+			<tr class="oddRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med jbosssso_icon_16x">&nbsp;</span>
+					 <a href="/jbosssso" >JBoss SSO</a>
+				</td>
+				<td>
+			 <a href="/jbosssso/downloads">Downloads</a>   
+				</td>
+				<td>
+			 <a href="http://www.jboss.org/wiki/Jbosssso">Documentation</a>   
+				</td>
+				<td>
+			 <a href="http://www.jboss.org/wiki/Jbosssso">Wiki</a>  	|  
+			 <a href="http://www.jboss.com/index.html?module=bb&amp;op=viewforum&amp;f=49">User forum</a>  	|  
+			 <a href="http://www.jboss.com/index.html?module=bb&amp;op=viewforum&amp;f=171">Dev. forum</a>   
+				</td>
+				<td>
+			 <a href="http://jira.jboss.org/jira/browse/JBSSO">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="http://anonsvn.jboss.org/repos/jboss-sso">Anon SVN</a>   
+				</td>
+				<td>
+				</td>
+			</tr>
+			<tr class="evenRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med jbosswiki_icon_16x">&nbsp;</span>
+					 <a href="/jbosswiki" >JBoss Wiki</a>
+				</td>
+				<td>
+			 <a href="/jbosswiki/downloads">Downloads</a>   
+				</td>
+				<td>
+			 <a href="http://www.jboss.org/community/wiki/JBossWiki">Documentation</a>   
+				</td>
+				<td>
+			 <a href="http://www.jboss.org/community/wiki/JBossWiki">Wiki</a>  	|  
+			 <a href="http://www.jboss.org/index.html?module=bb&amp;op=viewforum&amp;f=224">Dev. forum</a>  	|  
+			 <a href="irc://irc.freenode.net/jbosswiki">Chat</a>  	|  
+			 <a href="http://jbosswiki.blogspot.com/">Blog</a>   
+				</td>
+				<td>
+			 <a href="http://jira.jboss.org/jira/browse/JBWIKI">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="http://anonsvn.jboss.org/repos/portletswap/contrib/wikiPortlet/trunk/">Anon SVN</a>  	|  
+			 <a href="http://svn.jboss.org/repos/portletswap/contrib/wikiPortlet/trunk/">Commiter SVN</a>   
+				</td>
+				<td>
+			 <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">LGPL</a>   
+				</td>
+			</tr>
+			<tr class="oddRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med jdcom_icon_16x">&nbsp;</span>
+					 <a href="/jdcom" >jDCOM</a>
+				</td>
+				<td>
+				</td>
+				<td>
+				</td>
+				<td>
+				</td>
+				<td>
+			 <a href="http://jira.jboss.org/jira/browse/JDCOM">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="http://anonsvn.jboss.org/repos/jdcom">Anon SVN</a>   
+				</td>
+				<td>
+				</td>
+			</tr>
+			<tr class="evenRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med jrunit_icon_16x">&nbsp;</span>
+					 <a href="/jrunit" >JRunit</a>
+				</td>
+				<td>
+			 <a href="/jrunit/downloads">Downloads</a>   
+				</td>
+				<td>
+			 <a href="http://www.jboss.org/jrunit/docs/index.html">Documentation</a>   
+				</td>
+				<td>
+			 <a href="http://www.jboss.org/wiki/Jrunit">Wiki</a>   
+				</td>
+				<td>
+				</td>
+				<td>
+				</td>
+				<td>
+				</td>
+			</tr>
+			<tr class="oddRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med kosmos_icon_16x">&nbsp;</span>
+					 <a href="/kosmos" >Kosmos</a>
+				</td>
+				<td>
+			 <a href="/kosmos/downloads">Downloads</a>   
+				</td>
+				<td>
+			 <a href="/kosmos/reference-manual">Documentation</a>   
+				</td>
+				<td>
+			 <a href="http://community.jboss.org/wiki/Kosmos">Wiki</a>  	|  
+			 <a href="http://community.jboss.org/en/kosmos/dev?view=discussions">Dev. forum</a>   
+				</td>
+				<td>
+			 <a href="http://jira.jboss.org/jira/browse/KOSMOS">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="http://anonsvn.jboss.org/repos/labs/labs/kosmos/">Anon SVN</a>   
+				</td>
+				<td>
+			 <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">LGPL</a>   
+				</td>
+			</tr>
+			<tr class="evenRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med metajizer_icon_16x">&nbsp;</span>
+					 <a href="/metajizer" >Metajizer</a>
+				</td>
+				<td>
+				</td>
+				<td>
+			 <a href="http://www.jboss.org/community/docs/DOC-11404">Documentation</a>   
+				</td>
+				<td>
+			 <a href="http://www.jboss.org/community/docs/DOC-11401">Wiki</a>   
+				</td>
+				<td>
+			 <a href="http://jira.jboss.org/jira/browse/MTAJZR">Issue tracking</a>   
+				</td>
+				<td>
+				</td>
+				<td>
+				</td>
+			</tr>
+			<tr class="oddRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med portletcontainer_icon_16x">&nbsp;</span>
+					 <a href="/portletcontainer" >Portlet Container</a>
+				</td>
+				<td>
+			 <a href="/portletcontainer/download">Downloads</a>   
+				</td>
+				<td>
+			 <a href="/portletcontainer/docs">Documentation</a>   
+				</td>
+				<td>
+			 <a href="http://www.jboss.org/wiki/JBPC_Home">Wiki</a>  	|  
+			 <a href="http://www.jboss.org/index.html?module=bb&amp;op=viewforum&amp;f=205">Dev. forum</a>   
+				</td>
+				<td>
+			 <a href="http://jira.jboss.com/jira/secure/IssueNavigator.jspa?reset=true&amp;&amp;pid=10050&amp;resolution=-1&amp;component=12310334&amp;sorter/field=priority&amp;sorter/order=DESC">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="http://anonsvn.jboss.org/repos/portal/modules/portlet/">Anon SVN</a>  	|  
+			 <a href="https://svn.jboss.org/repos/portal/modules/portlet/">Commiter SVN</a>   
+				</td>
+				<td>
+			 <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">LGPL</a>   
+				</td>
+			</tr>
+			<tr class="evenRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med portletswap_icon_16x">&nbsp;</span>
+					 <a href="/portletswap" >Portlet Swap</a>
+				</td>
+				<td>
+			 <a href="/portletswap/downloads">Downloads</a>   
+				</td>
+				<td>
+			 <a href="/portletswap/faq">Documentation</a>   
+				</td>
+				<td>
+			 <a href="http://www.jboss.org/community/docs/DOC-11675">Wiki</a>  	|  
+			 <a href="http://www.jboss.com/index.html?module=bb&amp;op=viewforum&amp;f=215">User forum</a>  	|  
+			 <a href="http://www.jboss.com/index.html?module=bb&amp;op=viewforum&amp;f=224">Dev. forum</a>   
+				</td>
+				<td>
+			 <a href="http://jira.jboss.com/jira/browse/SWAP">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="http://anonsvn.jboss.org/repos/portletswap">Anon SVN</a>  	|  
+			 <a href="http://viewvc.jboss.org/cgi-bin/viewvc.cgi/portletswap">ViewVC</a>   
+				</td>
+				<td>
+			 <a href="http://www.gnu.org/licenses/lgpl.txt">LGPL3</a>   
+				</td>
+			</tr>
+			<tr class="oddRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med reportingservices_icon_16x">&nbsp;</span>
+					 <a href="/reportingservices" >Reporting Services</a>
+				</td>
+				<td>
+			 <a href="/reportingservices/downloads">Downloads</a>   
+				</td>
+				<td>
+				</td>
+				<td>
+			 <a href="http://labs.jboss.com/wiki/Reportingservices">Wiki</a>  	|  
+			 <a href="http://www.jboss.com/index.html?module=bb&amp;op=viewforum&amp;f=227">Dev. forum</a>  	|  
+			 <a href="http://jboss.org/feeds/view/reporting">Blog</a>   
+				</td>
+				<td>
+			 <a href="http://jira.jboss.org/jira/browse/JBREPORT">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="http://anonsvn.jboss.org/repos/labs/labs/reportingservices">Anon SVN</a>  	|  
+			 <a href="http://viewvc.jboss.org/cgi-bin/viewvc.cgi/labs/labs/reportingservices">ViewVC</a>   
+				</td>
+				<td>
+			 <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">LGPL</a>   
+				</td>
+			</tr>
+			<tr class="evenRow">
+			
+				<td style="font-weight: bold;">
+					
+					 <span class="project-icon-med shotoku_icon_16x">&nbsp;</span>
+					 <a href="/shotoku" >Shotoku</a>
+				</td>
+				<td>
+			 <a href="/shotoku/downloads">Downloads</a>   
+				</td>
+				<td>
+			 <a href="http://labs.jboss.com/file-access/default/members/shotoku/freezone/apidocs/index.html">Documentation</a>   
+				</td>
+				<td>
+			 <a href="http://www.jboss.org/community/wiki/shotoku">Wiki</a>  	|  
+			 <a href="http://www.jboss.com/index.html?module=bb&amp;op=viewforum&amp;f=235">Dev. forum</a>  	|  
+			 <a href="http://www.jboss.org/feeds/view/adamw">Blog</a>   
+				</td>
+				<td>
+			 <a href="http://jira.jboss.org/jira/browse/JBSHOTOKU">Issue tracking</a>   
+				</td>
+				<td>
+			 <a href="http://anonsvn.jboss.org/repos/labs/labs/shotoku/">Anon SVN</a>   
+				</td>
+				<td>
+				</td>
+			</tr>
+		</tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <div class="proj_note" style="border: medium none; margin: 0px 20px; background-color: rgb(232, 229, 225);"> <h2 style="margin-top: 0px; font-size: 23px; color: rgb(59, 55, 49);">Licenses</h2> <p>Our main license, the <a href="http://www.gnu.org/licenses/lgpl.html">LGPL</a>, ensures you can safely use community projects to develop and deploy applications whilst keeping your source code private. You may even keep changes made to project source code private as long as you don't distribute the resulting binaries.</p> <p>Other licenses, such as the <a href="http://www.apache.org/licenses/">Apache License</a>, offer different usage terms. Check with the projects you're using to see which licenses apply.</p> </div>
+
+
+
+        <div class="clear">
+                <br />
+        </div>
+
+
+
+
+
+
+
+
+
+
+    
+        <div class="proj_note" style="border: medium none; margin: 0px 20px; background-color: rgb(232, 229, 225);"> <h2 style="margin-top: 0px; font-size: 23px; color: rgb(59, 55, 49);">Export Administration Regulations (EAR)</h2> <p><b>By downloading any Community project software, you understand that you are subject to the following terms and conditions:</b></p> <p>Community project software and technical information may be subject to the U.S. Export Administration Regulations (the &ldquo;EAR&rdquo;) and other U.S. and foreign law and may not be exported, re-exported or transferred (a) to any country listed in Country Group E:1 in Supplement No. 1 to part 740 of the EAR (currently, Cuba, Iran, North Korea, Sudan &amp; Syria); (b) to any prohibited destination or to any end user who has been prohibited from participating in U.S. export transactions by any federal agency of the U.S. government; or (c) for use in connection with the design, development or production of nuclear, chemical or biological weapons, or rocket systems, space launch vehicles, or sounding rockets, or unmanned air vehicle systems. You may not download Community project software or technical information if you are located in one of these countries or otherwise subject to these restrictions. You may not provide Community project software or technical information to individuals or entities located in one of these countries or otherwise subject to these restrictions. You are also responsible for compliance with foreign law requirements applicable to the import, export and use of Community project software and technical information.</p> </div>
+
+
+
+        <div class="clear">
+                <br />
+        </div>
+
+
+
+
+
+
+
+
+
+
+    
+        <div class="proj_note" style="border: medium none; margin: 0px 20px; background-color: rgb(232, 229, 225);"> <h2 style="margin-top: 0px; font-size: 23px; color: rgb(59, 55, 49);">Export Control Classification Number (ECCN)</h2> <p>An ECCN is an alpha-numeric classification used in the Commerce Control List to identify items for export control purposes. Community project source code is classified under ECCN 5D002. License exception TSU is available for re-exports from the U.S.</p> </div>
+
+
+
+
+
+                    
+                </div><!-- end main -->
+                </div>
+               
+                
+
+            </div><!-- end wrapper-3 -->
+
+
+              
+            </div><!-- end wrapper-content -->
+          
+  
+
+
+
+          
+            <div style="clear: both;"></div>
+        </div><!-- end wrapper-2 -->
+        </div>
+<div id="site-info">
+  <div>
+
+
+  </div>
+  
+<!--#if expr='1<0' -->
+<div class="footer">
+   <p>Sponsored by </p>
+   <div id="footerlogo">
+      <a title="Red Hat, Inc." href="http://www.redhat.com" class="">
+         <h6>Red Hat, Inc.</h6>
+      </a>
+    </div>
+  <p>
+    <a href="http://www.jboss.org/about.html">About</a>   |   
+    <a href="http://www.jboss.org/contact.html">Contact Us</a>   |  
+    <a href="http://www.redhat.com/about/work">Jobs</a>   |   
+    <a href="http://www.jboss.org/help.html">Help</a>
+  </p>
+</div>
+
+<!-- begin eloqua tracking --> 
+<script type='text/javascript' language='JavaScript' src='http://www.redhat.com/j/elqNow/elqCfg.js'></script> 
+<script type='text/javascript' language='JavaScript' src='http://www.redhat.com/j/elqNow/elqImg.js'></script> 
+<!-- end eloqua tracking -->
+<!-- SiteCatalyst code version: H.21.
+Copyright 1996-2010 Adobe, Inc. All Rights Reserved
+More info available at http://www.omniture.com -->
+<div id="oTags">
+<!-- // **************************** CHANGE PAT BELOW TO YOUR SERVERS PATH -->
+<script type="text/javascript" src="http://www.redhat.com/j/s_code.js"></script>
+
+<script><!--
+/* You may give each page an identifying name, server, and channel on
+the next lines. */
+/* E-commerce Variables */
+
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var s_code=s.t();if(s_code)document.write(s_code)//--></script>
+
+<script language="JavaScript" type="text/javascript"><!--
+if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
+
+//--></script><noscript><a href="http://www.omniture.com" title="Web
+Analytics"><img src="https://smtrcs.redhat.com/b/ss/redhatjbossorg/1/H.21--NS/0?[AQB]&cdp=3&[AQE]"
+height="1" width="1" border="0" alt="" /></a></noscript>
+
+<!--/DO NOT REMOVE/-->
+</div>
+
+<!-- End SiteCatalyst code version: H.21. -->
+
+<!--#endif -->
+<!--#include virtual="/theme/includes/org_footer2.html" -->  
+  <!-- end site-info -->    </div><!-- end wrapper -->
+
+<!-- Google Analytics part -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-10656779-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>    
+    
+</body>
+</html>
